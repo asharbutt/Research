@@ -1,10 +1,11 @@
 title: Quantitative Finance Studies
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
+colour-scheme: dark
 
 url: https://asharbutt.github.io/MyWebsite
 
 aux_links:
   Template Repository: https://github.com/asharbutt/MyWebsite
 
-colour-scheme: dark
+
