@@ -3,7 +3,8 @@ layout: default
 title: Gaussian Distribution
 parent: Distributions
 grand_parent: Probability Theory
-nav_order: 1
+permalink: /docs/Probability Theory/Distributions/Gaussian/
+
 ---
 
 # Gaussian Distribution
