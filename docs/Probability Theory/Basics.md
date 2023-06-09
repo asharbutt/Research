@@ -18,6 +18,6 @@ Each subset within this set are called events - sets of smaller outcomes. Conseq
 
 ### The sigma algebra: $$\digamma$$
 A sigma algebra is a collection of subsets within the infinite set which fulfills the following conditions:
-1. $\digamma$ contains the full set and the null set
-2. For every subset in $\digamma$, it also contains the complement of that set: if A $\in$ $\digamma$, then $A^C$ $\in$ $\digamma$
-3. For every sequence of subsets in $\Digamma$, their unions also exist in $\digamma$
+1. $$\digamma$$ contains the full set and the null set
+2. For every subset in $$\digamma$$, it also contains the complement of that set: if A $$\in$$ $$\digamma$$, then $$A^C$$ $$\in$$ $$\digamma$$
+3. For every sequence of subsets in $$\digamma$$, their unions also exist in $$\digamma$$
