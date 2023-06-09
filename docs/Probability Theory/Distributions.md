@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Distributions
+title: Continious Distributions
 parent: Probability Theory
 has_children: true
 nav_order: 6
