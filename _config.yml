@@ -9,3 +9,5 @@ aux_links:
   Template Repository: https://github.com/asharbutt/MyWebsite
 
 math_engine: mathjax
+compress_html:
+  blanklines: true
