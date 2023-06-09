@@ -12,4 +12,4 @@ Let X be a random variable on a probability space ($$\Omega$$, $$\digamma$$, P).
 
 When $$\Omega$$ is finite and X is discrete (countable), then this is simple:
 
-$$EX = \ \sum_{i=1}^{n} X(w)P(w) \$$
+$$EX =  \sum_{i=1}^{n} X(w)P(w) \$$
