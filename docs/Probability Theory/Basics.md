@@ -15,8 +15,8 @@ This is an infinite set containing all the possible outcomes. The sequences with
 
 Each subset within this set are called events - sets of smaller outcomes. Consequently, we cannot calculate the probability if different subsets by summing them up due to the uncountable nature of the subsets.
 
-### The sigma algebra: $\Digamma$
+### The sigma algebra: $\digamma$
 A sigma algebra is a collection of subsets within the infinite set which fulfills the following conditions:
-1. $\Digamma$ contains the full set and the null set
-2. For every subset in $\Digamma$, it also contains the complement of that set: if A $\in$ $\Digamma$, then $A^C$ $\in$ $\Digamma$
-3. For every sequence of subsets in $\Digamma$, their unions also exist in $\Digamma$
+1. $\digamma$ contains the full set and the null set
+2. For every subset in $\digamma$, it also contains the complement of that set: if A $\in$ $\digamma$, then $A^C$ $\in$ $\digamma$
+3. For every sequence of subsets in $\Digamma$, their unions also exist in $\digamma$
