@@ -4,7 +4,7 @@ title: Basics Of Probability
 parent: Basics
 grand_parent: Probability Theory
 mathjax: true
-permalink: /docs/Probability Theory/Basics/Basics Introduction/
+permalink: /docs/Probability Theory/Basics/BasicsIntroduction/
 ---
 
 # The Basics of Probability Theory
