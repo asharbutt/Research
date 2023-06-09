@@ -21,3 +21,12 @@ A sigma algebra is a collection of subsets within the infinite set which fulfill
 1. $$\digamma$$ contains the full set and the null set
 2. For every subset in $$\digamma$$, it also contains the complement of that set: if A $$\in$$ $$\digamma$$, then $$A^C$$ $$\in$$ $$\digamma$$
 3. For every sequence of subsets in $$\digamma$$, their unions also exist in $$\digamma$$
+
+### The Probability Measure P
+The probability measure P is a function that maps the subsets within $$\digamma$$ to the interval [0,1] - in essence assigns a probability to each of the subsets within the sigma algebra. In order for P to satisfy as a probability measure, it must fulfil the following conditions:
+1. The probability of the infinite set is 1 P($$\Omega$$) = 1 - this makes sense as the probability of getting the infinite set should always be 100%
+2. Countable Additivity -  The Probability of the union of any sequence of sets $$A_n$$ should be the equivalent of the sum of the individual probabilities of the subsets in that sequence
+
+Once these conditions have been satisfied, then these three building blocks are used to create the probability space ($$\Omega$$, $$\digamma$$, P)
+
+
