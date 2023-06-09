@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Basics Of Probability
+title: Expectation and Variance
 parent: Basics
 grand_parent: Probability Theory
 mathjax: true
