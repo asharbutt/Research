@@ -29,4 +29,12 @@ The probability measure P is a function that maps the subsets within $$\digamma$
 
 Once these conditions have been satisfied, then these three building blocks are used to create the probability space ($$\Omega$$, $$\digamma$$, P)
 
-<input type="text" id="fname" name="fname"><br><br>
+## Random Variable
+A random variable RV is a function that will map the outcome of an event (a subset) to the real line R. The value of the random variable X is determined through random experiments, for example throwing a coin and assigning 1 or 0 depending on the outcome. In infinite probability spaces like $$\Omega$$, the probability of X taking a specific value is 0, hence we usually consider the probability that X is in a certain subset rather than a specific element of a subset. 
+
+## The distribution measure
+The distribution measure of X is the probability measure that assigns each Borel subset on R a mass equivalent to the probability of X being in that Borel subset. 
+For example, if P{X $$\in$$ B} = 0.5, where B = [2,5], then the distribution measure $$ \mu_X (B) $$ is equal to 0.5 - basically the distribution measure just assigns a probability to a distribution on the real line, for example a Borel subset, which is an interval rather than a specific value.
+
+
+
