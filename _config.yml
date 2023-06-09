@@ -8,4 +8,6 @@ url: https://asharbutt.github.io/MyWebsite
 aux_links:
   Template Repository: https://github.com/asharbutt/MyWebsite
 
-
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
