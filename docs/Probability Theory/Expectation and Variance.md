@@ -27,7 +27,7 @@ The issue with this is that $$X(\omega)$$ is a function of $$(\omega)$$, the eve
 
 This is where the Lebesgue Integral comes in with the following representation:
 
-$$EX =  \int_{\Omega}^{} X(\omega) \,dP(omega) \]$$
+$$EX =  \int_{\Omega}^{} X(\omega) \,dP(\omega) \]$$
 
 We instead look to integrate the random variable, the function of the events with respect to the probability of those events. This involves partitioning the probabiltiy distribution of each outcome of the random variable, thus allowing us to be able to integrate. 
 
