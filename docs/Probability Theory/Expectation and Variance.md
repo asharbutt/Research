@@ -34,7 +34,7 @@ We instead look to integrate the random variable, the function of the events wit
 Under the Lebesgue Integral, we can now define some properties of Expectations:
 <div class="code-example" markdown="1">
 
-1. If X takes a finite number of values (countable), then the expectation can be defined as a sum:
+- If X takes a finite number of values (countable), then the expectation can be defined as a sum:
 
 $$EX =   \sum_{k=1}^{n} x_k P{X = x_k} $$
 
@@ -42,11 +42,11 @@ In case $$\Omega$$ is infinite but countable, then:
 
 $$EX =   \sum_{k=1}^{\infty} x_k P{X = x_k} $$
 
-2. Integrability: X is only integrable if and only if the modulus expectation is finite:
+- Integrability: X is only integrable if and only if the modulus expectation is finite:
 
 $$E|X| < \infty$$
 
-3. Comparison: If X $$\leq$$ Y and are integrable and non-negative surely, then:
+- Comparison: If X $$\leq$$ Y and are integrable and non-negative surely, then:
 ```math
 EX $$\leq$$ EY
 ```
@@ -55,6 +55,6 @@ A particular result from this is that if X = Y almost surely (with probability 1
 EX = EY
 ```
 
-4. Linearity: If X and Y are integrable and non-negative, then we can split integrals through:
+- Linearity: If X and Y are integrable and non-negative, then we can split integrals through:
 E(aX + bY) = aEX + bEY
 </div>
