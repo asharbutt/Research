@@ -8,7 +8,7 @@ permalink: /docs/Probability Theory/Basics/Expectation/
 ---
 
 # Expectation - Introduction
-Let X be a random variable on a probability space ($$\Omega$$, $$\digamma$$, P). We are interested to know what the average value X may take over a range of experiments given the probability of each of those outcomes. 
+Let X be a random variable on a probability space ($$\Omega$$, $$\digamma$$, P). We are interested to know what the average value X may take over a range of experiments given the probability of each of those outcomes. Outside of experimentation, the mean/expected value gives us an idea of the centre of location of the distribution of outcomes. 
 
 When $$\Omega$$ is finite and discrete (countable), then this is simple:
 
