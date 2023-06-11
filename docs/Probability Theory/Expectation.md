@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Expectation and Variance
+title: Expectation 
 parent: Basics
 grand_parent: Probability Theory
 mathjax: true
-permalink: /docs/Probability Theory/Basics/Expectation And Variance/
+permalink: /docs/Probability Theory/Basics/Expectation/
 ---
 
 # Expectation - Introduction
@@ -57,4 +57,16 @@ EX = EY
 
 - Linearity: If X and Y are integrable and non-negative, then we can split integrals through:
 E(aX + bY) = aEX + bEY
-</div>
+
+- Jensens Inequality: If g(x) is a convex function (gradient is increasing, second derivative is positive), and if X is a non-negative integrable RV with EX<$$\infty$$, then if we applied the convex function to the RV, then:
+
+g(EX) $$\leq$$ Eg(X)
+
+This comes from the fact that variance is always positive, and can be calculated as:
+
+$$Var(X) = E(X^2) - (EX)^2 \geq 0$$
+
+which states that: $$E(X^2) \geq (EX)^2$$
+
+If we were to create a new convex function g(x) and replace the above, then we would land on Jensens Inequality.
+/div>
