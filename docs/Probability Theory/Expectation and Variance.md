@@ -36,11 +36,11 @@ Under the Lebesgue Integral, we can now define some properties of Expectations:
 
 - If X takes a finite number of values (countable), then the expectation can be defined as a sum:
 
-$$EX =   \sum_{k=1}^{n} x_k P{X = x_k} $$
+$$EX =   \sum_{k=1}^{n} x_k P(X = x_k) $$
 
 In case $$\Omega$$ is infinite but countable, then:
 
-$$EX =   \sum_{k=1}^{\infty} x_k P{X = x_k} $$
+$$EX =   \sum_{k=1}^{\infty} x_k P (X = x_k) $$
 
 - Integrability: X is only integrable if and only if the modulus expectation is finite:
 
