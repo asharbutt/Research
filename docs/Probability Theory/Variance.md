@@ -35,8 +35,8 @@ Because Var(X) is 1 (as X is normally dsitributed), then:
 
 $$k^2 = dt$$
 
-$$k = \sqrt dt$$
+$$k = \sqrt{dt}$$
 
-So we need to multiply the variable X, or the standard normal distribution by $$\sqrt dt$$ in order to get a Brownian motion increment.
+So we need to multiply the variable X, or the standard normal distribution by $$\sqrt{dt}$$ in order to get a Brownian motion increment.
 
 </div>
