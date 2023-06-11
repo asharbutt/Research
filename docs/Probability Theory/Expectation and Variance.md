@@ -12,11 +12,11 @@ Let X be a random variable on a probability space ($$\Omega$$, $$\digamma$$, P).
 
 When $$\Omega$$ is finite and discrete (countable), then this is simple:
 
-$$EX =  \ [\sum_{w \in \Omega}^{} P(w)X(w) \]$$
+$$EX =  \ \sum_{w \in \Omega}^{} P(w)X(w) \]$$
 
 If $$\Omega$$ is infinite but still countable, then we can compute the expectation as:
 
-$$EX =  \ [\sum_{w \in \Omega}^{\infty} P(w)X(w) \]$$
+$$EX =  \ \sum_{w \in \Omega}^{\infty} P(w)X(w) \]$$
 
 In the case that $$\Omega$$ is uncountable and infinite, then we need to use integration instead in order to compute the expectation. 
 When considering intergrals, we have two options: The Riemann Integral and the Lebesgue Integral. The Riemann is the most widely used integral method, consered mainly in calculus. However, an issue with Riemann is that it is composed as of the following:
