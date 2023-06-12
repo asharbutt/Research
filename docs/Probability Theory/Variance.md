@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Variance 
+title: Variance and Covariance
 parent: Basics
 grand_parent: Probability Theory
 mathjax: true
-permalink: /docs/Probability Theory/Basics/Variance/
+permalink: /docs/Probability Theory/Basics/Variance and Covariance/
 ---
 
 # Variance - An Introduction
@@ -39,4 +39,34 @@ $$k = \sqrt{dt}$$
 
 So we need to multiply the variable X, or the standard normal distribution by $$\sqrt{dt}$$ in order to get a Brownian motion increment.
 
+- Additivity of Variance (Independent Variables): If X and Y are independent random variables, then the sum of their variances can be written as:
+
+Var(X + Y) = Var(X) + Var(Y)
+
+- Additivity of Variance (Dependent Variables): If X and Y are dependent variables, then their sum of variances is given by:
+
+Var(X + Y) = Var(X) + Var(Y) + 2abCov(X,Y)
 </div>
+
+## Covariance
+Covariance is a meaure of how two variables vary together - whilst Variance tells you how a single variable varies, the covariance provides details about how two variables move together. It is given by:
+
+$$Cov(X,Y) = E[(X - EX)(Y - EY)]$$
+
+For some constants a,b,c,d and random variables U,V,Y,Z:
+
+$$Cov(aU + bV, cY + dZ) = $$
+
+
+Given that the covariance describes how two variables move together, we can interpret is as the strength of relationship between two variables: the higher the cov(), the stronger the relationship. It is important to note that covariances cannot be compared accross datasets with different measurements/units. 
+
+The issue with interpreting the covariacne result is that if X and Y values are large, the covariance value will also be large - then how do you know whether the relationship between two variables is strong or not?
+
+## Correlation Coefficient
+Because the covariance figure makes it hard see how strongly two variables are related, we standardise the covariance result by dividing by the two standard deviations of the variables to get a Pearson Correlation Coefficient:
+
+$$\ro = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}$$
+
+This gives us a standardised result between -1 and 1, providing us with an interpretation of how strong the result is.
+
+An issue with this is that this coefficient only measures linear relationships - if a higher order relationship is present, this will not be able to pick it up.
