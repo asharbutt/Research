@@ -72,15 +72,3 @@ This gives us a standardised result between -1 and 1, providing us with an inter
 An issue with this is that this coefficient only measures linear relationships - if a higher order relationship is present, this will not be able to pick it up.
 
 An Important note is that the Variance of a random variable is not well defined unless it has a finite expectation, i.e $$EX < \infty$$. The same applies to correlation - two random variables do not have a well defined correlation unless their individual variances are finite (thus meaning their expectations are finite).
-
-## Independence
-When a random variable X is measurable with respect to some $$\sigma$$-algebra G, we say that X is G-measurable, and the information contained within G is sufficient to be able to estimate X. The other case is when the information in G is not sufficient to determine the value of X - we say X is independent of G. 
-
-A formal definition in terms of random variables is given through:
-<div class="code-example" markdown="1">
-  Let ($$\Omega, \digamma$$, P) be a probability space. Two random variables X and Y in $$\digamma$$ are said to be independent if:
-
-  P(X$$\cap$$Y) =  P(X)P(Y)
-
-  In simpler terms, knowing the outcome of one random variable will not affect the outcome of the other random variable. Furthermore, independence of random variables also implies independence of functions of those random variables i.e if X and Y are independent, then so are Sin(X) and $$e^Y$$
-</div>
