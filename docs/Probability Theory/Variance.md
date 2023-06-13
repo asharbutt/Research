@@ -5,6 +5,7 @@ parent: Basics
 grand_parent: Probability Theory
 mathjax: true
 permalink: /docs/Probability Theory/Basics/Variance and Covariance/
+nav_order: 3
 ---
 
 # Variance - An Introduction
