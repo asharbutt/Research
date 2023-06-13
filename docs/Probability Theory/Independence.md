@@ -5,6 +5,7 @@ parent: Basics
 grand_parent: Probability Theory
 mathjax: true
 permalink: /docs/Probability Theory/Basics/Independence/
+nav_order: 4
 ---
 ## Independence
 When a random variable X is measurable with respect to some $$\sigma$$-algebra G, we say that X is G-measurable, and the information contained within G is sufficient to be able to estimate X. The other case is when the information in G is not sufficient to determine the value of X - we say X is independent of G. 
