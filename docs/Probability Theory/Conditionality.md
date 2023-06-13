@@ -63,6 +63,7 @@ This is because the expectation of X after knowing Y is just the same as what we
 We provide the properties of conditional expectations below:
 
 <div class="code-example" markdown="1">
+  
 - **Linearity of Conditional expectations** - the expectation of two random variables given some set G:
   $$E[aX + bY|G] = aE[X|G] + bE[Y|G]$$
 
