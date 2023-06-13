@@ -68,7 +68,7 @@ We provide the properties of conditional expectations below:
 
 - Taking out what is known -  if X is G-measurable, then:
 $$E[XY|G] = XE[Y|G]$$
-
+  <div class="code-example" markdown="1">
 - Iterated Conditioning - If a set H contains less information than some set G, then:
 $$E[E[X|G]|H] = E[X|H]$$
 
@@ -93,6 +93,6 @@ The sum of the conditional probability over all y values will be equal to 1 (as 
 $$E[E[X|Y]] = \sum_{x}^{} x_iPr(X = x)$$
 
 $$E[E[X|Y]] = EX $$
-
+  </div>
 </div>
 
