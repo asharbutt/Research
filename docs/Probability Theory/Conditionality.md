@@ -12,7 +12,7 @@ A Conditional Probability P(A|B) means the probability of A occuring given that 
 <div class="code-example" markdown="1">
 A simple conditional probability formula is given through:
 
-$$Pr(A|B) = \frac{Pr(A\capB)}{Pr(B)}$$
+$$Pr(A|B) = \frac{Pr(A\cap B)}{Pr(B)}$$
 
 In terms of random variables, we can re-write this as:
 
@@ -48,4 +48,36 @@ $$E[X|Y = y] = \int_{-\infty}^{\infty} x f_{X,Y}(x|y) ,\dx$$
 Which can be re-written as:
 
 $$E[X|Y = y] = \int_{-\infty}^{\infty} x \frac{f(x,y)}{f_Y(y)} ,\dx$$
+
+## Conditional Expectation as a random variable
+If we have two random variables, X and Y, and we have the conditional expectation E[X|Y], then we can treat this expectation itself as a function of the random variable Y because it depends on what the value of Y is. We know what values of X can appear given Y, and so this expectation inherits its randomness from the distribution of Y rather than X.
+
+So what is the expectation of this random variable?
+$$
+E[E[X|Y]] = E[X]
+$$
+
+This is because the expectation of X after knowing Y is just the same as what we expect X to be now (This is the law of iterated expectations).
+
+We provide the properties of conditional expectations below:
+
+<div class="code-example" markdown="1">
+- Linearity of Conditional expectations - the expectation of two random variables given some set G:
+  $$E[aX + bY|G] = aE[X|G] + bE[Y|G]$$
+
+- Taking out what is known -  if X is G-measurable, then:
+$$E[XY|G] = XE[Y|G]$$
+
+- Iterated Conditioning - If a set H contains less information than some set G, then:
+$$E[E[X|G]|H] = E[X|H]$$
+
+This also applies to iterating without a second set:
+$$E[E[X|Y]] = EX$$
+
+The proof for this is:
+$$E[E[X|Y]] = \sum_{y}^{} E[X|Y = y] Pr(Y = y)$$ - Because this is the expectation of the expectation of X given Y, Y is the random variable first, and then we therefore take the expectation with regards to y first. 
+
+$$E[E[X|Y]] = \sum_{y}^{} E[X|Y = y] Pr(Y = y)$$
+
+</div>
 
