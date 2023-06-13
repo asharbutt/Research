@@ -5,6 +5,7 @@ parent: Basics
 grand_parent: Probability Theory
 mathjax: true
 permalink: /docs/Probability Theory/Basics/Conditionality/
+nav_order: 5
 ---
 # Conditional Probability
 A Conditional Probability P(A|B) means the probability of A occuring given that B has occured, for example probability of a flooding given that it has rained the previous day.
