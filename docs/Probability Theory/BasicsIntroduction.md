@@ -5,6 +5,7 @@ parent: Basics
 grand_parent: Probability Theory
 mathjax: true
 permalink: /docs/Probability Theory/Basics/BasicsIntroduction/
+nav_order: 1
 ---
 
 # The Basics of Probability Theory
