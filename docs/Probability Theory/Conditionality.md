@@ -78,7 +78,21 @@ $$E[E[X|Y]] = EX$$
 The proof for this is:
 $$E[E[X|Y]] = \sum_{y}^{} E[X|Y = y] Pr(Y = y)$$ - Because this is the expectation of the expectation of X given Y, Y is the random variable first, and then we therefore take the expectation with regards to y first. 
 
-$$E[E[X|Y]] = \sum_{y}^{} E[X|Y = y] Pr(Y = y)$$
+$$E[E[X|Y]] = \sum_{y}^{} \sum_{x}^{} x_i Pr(X = x|Y = y) Pr(Y = y)$$ - The expectation of x is summed with respect to x. We note here that $$Pr(X = x|Y = y) Pr(Y = y)$$ through Bayes theorem is the equivalent of  $$Pr(Y = y|X = x) Pr(X = x)$$. 
+
+We get the following based on this:
+
+$$E[E[X|Y]] = \sum_{y}^{} \sum_{x}^{} x_i Pr(Y = y|X = x) Pr(X = x)$$ 
+
+We can separate these into their respective sums:
+
+$$E[E[X|Y]] = \sum_{y}^{} x_i Pr(Y = y|X = x) \sum_{x}^{} x_iPr(X = x)$$ 
+
+The sum of the conditional probability over all y values will be equal to 1 (as we are summing over the entire probability space for y):
+
+$$E[E[X|Y]] = \sum_{x}^{} x_iPr(X = x)$$
+
+$$E[E[X|Y]] = EX $$
 
 </div>
 
