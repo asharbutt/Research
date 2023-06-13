@@ -68,7 +68,7 @@ We provide the properties of conditional expectations below:
 
 - Taking out what is known -  if X is G-measurable, then:
 $$E[XY|G] = XE[Y|G]$$
-  <div class="code-example" markdown="1">
+  <div class="code-example" markdown="2">
 - Iterated Conditioning - If a set H contains less information than some set G, then:
 $$E[E[X|G]|H] = E[X|H]$$
 
