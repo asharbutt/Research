@@ -63,13 +63,12 @@ This is because the expectation of X after knowing Y is just the same as what we
 We provide the properties of conditional expectations below:
 
 <div class="code-example" markdown="1">
-- Linearity of Conditional expectations - the expectation of two random variables given some set G:
+- **Linearity of Conditional expectations** - the expectation of two random variables given some set G:
   $$E[aX + bY|G] = aE[X|G] + bE[Y|G]$$
 
-- Taking out what is known -  if X is G-measurable, then:
+- **Taking out what is known** -  if X is G-measurable, then:
 $$E[XY|G] = XE[Y|G]$$
-  <div class="code-example" markdown="2">
-- Iterated Conditioning - If a set H contains less information than some set G, then:
+- **Iterated Conditioning** - If a set H contains less information than some set G, then:
 $$E[E[X|G]|H] = E[X|H]$$
 
 This also applies to iterating without a second set:
@@ -93,6 +92,7 @@ The sum of the conditional probability over all y values will be equal to 1 (as 
 $$E[E[X|Y]] = \sum_{x}^{} x_iPr(X = x)$$
 
 $$E[E[X|Y]] = EX $$
-  </div>
+
+- **Tower Law**
 </div>
 
