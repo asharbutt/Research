@@ -86,7 +86,7 @@ $$E[E[X|Y]] = \sum_{y}^{} \sum_{x}^{} x_i Pr(Y = y|X = x) Pr(X = x)$$
 
 We can separate these into their respective sums:
 
-$$E[E[X|Y]] = \sum_{y}^{} x_i Pr(Y = y|X = x) \sum_{x}^{} x_iPr(X = x)$$ 
+$$E[E[X|Y]] = \sum_{y}^{} Pr(Y = y|X = x) \sum_{x}^{} x_iPr(X = x)$$ 
 
 The sum of the conditional probability over all y values will be equal to 1 (as we are summing over the entire probability space for y):
 
