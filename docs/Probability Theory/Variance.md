@@ -53,9 +53,9 @@ Covariance is a meaure of how two variables vary together - whilst Variance tell
 
 $$Cov(X,Y) = E[(X - EX)(Y - EY)]$$
 
-For some constants a,b,c,d and random variables U,V,Y,Z:
+For some constants a,b,c,d and random variables U,V,Y,Z, the covariance between the sums is the breakdown of each pair, given as follows:
 
-$$Cov(aU + bV, cY + dZ) = $$
+$$Cov(aU + bV, cY + dZ) = acCov(U,Y) + adCov(U,Z) + bcCov(V,Y) + bdCov(V,Z)$$
 
 
 Given that the covariance describes how two variables move together, we can interpret is as the strength of relationship between two variables: the higher the cov(), the stronger the relationship. It is important to note that covariances cannot be compared accross datasets with different measurements/units. 
@@ -65,8 +65,23 @@ The issue with interpreting the covariacne result is that if X and Y values are 
 ## Correlation Coefficient
 Because the covariance figure makes it hard see how strongly two variables are related, we standardise the covariance result by dividing by the two standard deviations of the variables to get a Pearson Correlation Coefficient:
 
-$$\ro = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}$$
+$$\rho = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}}$$
 
 This gives us a standardised result between -1 and 1, providing us with an interpretation of how strong the result is.
 
 An issue with this is that this coefficient only measures linear relationships - if a higher order relationship is present, this will not be able to pick it up.
+
+An Important note is that the Variance of a random variable is not well defined unless it has a finite expectation, i.e $$EX < \infty$$. The same applies to correlation - two random variables do not have a well defined correlation unless their individual variances are finite (thus meaning their expectations are finite).
+
+## Independence
+When a random variable X is measurable with respect to some $$\sigma$$-algebra G, we say that X is G-measurable, and the information contained within G is sufficient to be able to estimate X. The other case is when the information in G is not sufficient to determine the value of X - we say X is independent of G. 
+
+A formal definition in terms of random variables is given through:
+<div class="code-example" markdown="1">
+  Let ($$\Omega, \digamma$$, P) be a probability space. Two random variables X and Y in $$\digamma$$ are said to be independent if:
+
+  P(X$$\cap$$Y) =  P(X)P(Y)
+
+  In simpler terms, knowing the outcome of one random variable will not affect the outcome of the other random variable. Furthermore, independence of random variables also implies independence of functions of those random variables i.e if X and Y are independent, then so are Sin(X) and $$e^Y$$
+</div>
+
