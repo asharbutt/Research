@@ -44,11 +44,11 @@ $$f_{X,Y}(x|y) = \frac{f(x,y)}{f_Y(y)}$$
 
 Thus, given the conditional density, the continious expectation can be calculated as:
 
-$$E[X|Y = y] = \int_{-\infty}^{\infty} x f_{X,Y}(x|y) \dx$$
+$$E[X|Y = y] = \int_{-\infty}^{\infty} x f_{X,Y}(x|y) dx\$$
 
 Which can be re-written as:
 
-$$E[X|Y = y] = \int_{-\infty}^{\infty} x \frac{f(x,y)}{f_Y(y)} \dx$$
+$$E[X|Y = y] = \int_{-\infty}^{\infty} x \frac{f(x,y)}{f_Y(y)} dx\$$
 
 ## Conditional Expectation as a random variable
 If we have two random variables, X and Y, and we have the conditional expectation E[X|Y], then we can treat this expectation itself as a function of the random variable Y because it depends on what the value of Y is. We know what values of X can appear given Y, and so this expectation inherits its randomness from the distribution of Y rather than X.
