@@ -84,4 +84,3 @@ A formal definition in terms of random variables is given through:
 
   In simpler terms, knowing the outcome of one random variable will not affect the outcome of the other random variable. Furthermore, independence of random variables also implies independence of functions of those random variables i.e if X and Y are independent, then so are Sin(X) and $$e^Y$$
 </div>
-
