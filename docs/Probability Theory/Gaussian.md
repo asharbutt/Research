@@ -42,7 +42,7 @@ $$EX =  \frac{1}{\sqrt{2\pi}}(\int_{-\infty}^{0} x e^{-\frac{(x)^2}{2}} \,dx +  
 
 The integral of $$x e^{-\frac{-1}{2}x}$$ is given through substitution method, and equals:
 
-$$EX =  \frac{1}{\sqrt{2\pi}}([-e^{-\frac{(x)^2}{2}}]\biggl|_{-\infty}^0 + [-e^{-\frac{(x)^2}{2}}]\biggl|_{0}^{\infty})$$
+$$EX =  \frac{1}{\sqrt{2\pi}} ( [-e^{-\frac{(x)^2}{2}}] \biggl|_ {-\infty}^0 + [-e^{-\frac{(x)^2}{2}}] \biggl|_{0}^{\infty})$$
 
 We know that $$e^x$$ where $$x = \infty$$ will equal 0, and so:
 
