@@ -7,12 +7,18 @@ permalink: /docs/Probability Theory/Distributions/Gaussian Distribution/
 ---
 
 # The Gaussian Distribution
-The most widely used distribution accross all fields, also known as the bell curve, the Gaussian, or Standard Normal distribution is given bya symmetrical bell shaped continious distribution. 
+The most widely used distribution accross all fields, also known as the bell curve, the Gaussian, or Standard Normal distribution is given by a symmetrical bell shaped continious distribution. 
 
-The density function of the normal distribution (the function that assigns a probability mass to an infinitely small interval on the distribution) is given by:
+## Normal PDF
+The density function of the normal distribution (the function that assigns a probability density to an infinitely small interval on the distribution) is given by:
 
 $$f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}}$$
 
+An important note of this function is that the density function assigns a density to the value x, not a probability. This means that for a given interval, the density assigned to a value x can be greater than 1.
+
+What is important is that when we integrate, which is how we find the probability of a value, the integral is equal to 1 if we integrate over the entire real line.
+
+The $$\frac{1}{\sigma \sqrt{2\pi}}$$ makes sure that the integral equals 1 over R. This is different when compareed to probability mass functions, which assign an actual probability mass to a value x. 
 ## Expectation of a Gaussian variable
 
 In order to find the exepctation of a normal random variable, recall that under the discrete setting, we use:
