@@ -31,6 +31,6 @@ The joint pdf has to fulfil the following consitions:
 1. $$0 \leq f(x,y)$$
 2. The total probability has to be equal to 1:
 
-   $$\int_{a}^{b} \int_{c}^{d} f(x, y) \,dx \,dy$$
+   $$\int_{a}^{b} \int_{c}^{d} f(x, y) \dx \,dy$$
 
    
