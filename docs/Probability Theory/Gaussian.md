@@ -42,7 +42,7 @@ We can split this up into two integrals through the linearity of expectations wi
 
 $$EX =  \int_{-\infty}^{0} x \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}} \,dx +  \int_{0}^{\infty} x \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}} \,dx$$
 
-Take out the $$\frac{1}{\sigma^2 \sqrt{2\pi}}$$ as it is a constant and remove $$\sigma^2$$ since it is 1, as well as the mean:
+Take out the $$\frac{1}{\sigma \sqrt{2\pi}}$$ as it is a constant and remove $$\sigma^2$$ since it is 1, as well as the mean:
 
 $$EX =  \frac{1}{\sqrt{2\pi}}(\int_{-\infty}^{0} x e^{-\frac{(x)^2}{2}} \,dx +  \int_{0}^{\infty} x e^{-\frac{(x)^2}{2}} \,dx)$$
 
