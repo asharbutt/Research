@@ -59,6 +59,10 @@ This means that their joint density is also a product of the individual density 
 This makes checking for independence alot easier as you can see whether the products of the individual variables generate the joint distribution
 </div>
 
+Furthermore, for independent continious random variables:
+<div class="code-example" markdown="1">
+1. 
+</div>
 ## Functions of two continious random variables
 According to the law of the unconsious statistician, LOTUS, the expectation of a function on two random variables is given by:
 
