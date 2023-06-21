@@ -75,7 +75,7 @@ This is because CDF just calculates the cumulative probability up to the upper l
 ## Other details
 Suppose that X and Y are two independent normal random variables with $$X \sim N(\mu_1, \sigma_1^2)$$ and $$Y \ sim N(\mu_2, \sigma^2_2)$$. Then,
 
-1. $$ X + Y \sim N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$$
+1. $$X + Y \sim N(\mu_1 + \mu_2, \sigma_1^2 + \sigma_2^2)$$
 2. $$aX \sim N(a\mu_1, a^2 \sigma_1^2)$$
 
 This can be proved through their moment generating functions i.e deriving $$E[e^{\theta (X+Y)}], E[e^{\theta (aX)}]$$
