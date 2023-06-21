@@ -36,3 +36,6 @@ $$f_Y(y) = \frac{d}{dy}F_X(h^{-1}(y)) \frac{d}{dy}h^{-1}(y)$$
 
 $$f_Y(y) = f_X(h^{-1}(y)) \frac{d}{dy}h^{-1}(y)$$
 </div>
+
+## Multiple Random Variables
+
