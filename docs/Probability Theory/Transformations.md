@@ -25,5 +25,14 @@ $$P(Y \leq y) = P(X \leq h^{-1}(y))$$
 
 $$F_Y(y) = F_X(h^{-1}(y))$$
 
+$$f_Y(y) = \frac{d}{dy}F_Y(y)$$
 
+$$f_Y(y) = \frac{d}{dy}F_X(h^{-1}(y))$$
+
+$$f_Y(y) = \frac{d}{dy}F_X(h^{-1}(y))$$
+
+We can use the chain rule in the above equation
+$$f_Y(y) = \frac{d}{dy}F_X(h^{-1}(y)) \frac{d}{dy}h^{-1}(y)$$
+
+$$f_Y(y) = f_X(h^{-1}(y)) \frac{d}{dy}h^{-1}(y)$$
 </div>
