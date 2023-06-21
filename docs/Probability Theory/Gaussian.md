@@ -59,9 +59,16 @@ $$EX = 0$$
 ## Calculating CDF
 The CDF is the collection of probabilities up to a limit. For continious distributions, the CDF is given by the integral of the pdf:
 
-$$P( x \leq a) = \int_{-\infty}^{a} x \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}} \,dx $$
+$$P( X \leq a) = \int_{-\infty}^{a} \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}} \,dx $$
 
 Just like the above, the probability of an interval can be given by:
 
 
-$$P(a \geq x \leq b) = \int_{a}^{b} x \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}} \,dx $$
+$$P(a \geq X \leq b) = \int_{a}^{b} \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}} \,dx $$
+
+The general CDF of any distribution (continious) will be the integral of the density function from the lowest limit (in the Gaussian case, $$- \infty$$) to the upper limit which will be x. This can be shown in the following example:
+
+$$F(x) = \int_{-\infty}^{x} \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x - \mu)^2}{2\sigma^2}} \,dx $$
+
+This is because CDF just calculates the cumulative probability up to the upper limit, meaning the total, thus meaning it is a absolute continious and increasing function, with F(Max upper limit) = 1
+
