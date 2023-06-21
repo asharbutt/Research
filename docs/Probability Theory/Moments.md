@@ -28,3 +28,23 @@ The third standardised moment gives us the skewness of the distribution - whethe
 
 The 4th standardised moment gives us a measure of kurtosis - which is the relative size of **both** tails compared to the rest of the distribution. The even power of the standardised 4th moment means we can only get positive values for this. THe normal distribution has a kurtosis of 3 (or can be 0 in some models). A higher kurtosis means that more weight of the distribution is in the tails, thus the top of the distribution will be flatter, like a hill. Lower kurtosis on the other hand means that less of the distribution lies in the tails, and thus the peak will be higher. Kurtosis can also be thought of as the peakedness of the distribution, though this is not in the definition, and can only be thought of as an idea of what kurtosis is.
 
+## Moment Generating Functions
+We described how the moments describe characteristics of the distribution, and we will now look at what generates these moments. Moment Generating Functions, or MFGs are alternative methods of generating a distributions. The kth derivative of a MFG will allow us to get the kth important moment, and thus the MFG describes the distribution of the random variable.
+
+We can give the kth MFG by:
+
+$$mfg(k) = E[e^{kX}]$$
+
+An important theorem of MFG is that, given that the MFG of a random variable describes the distribution of that variable, then if two random variables have the same moment generating functions, then they also have the exact same distribution.
+
+We can also use moment generating functions to generate the distributions of combinations or transformations of random variables provided they are **independent**. In this case, the joint moment generating function is the product of individual functions:
+
+$$M(t_1, t_2) = M_X(t_1)M_Y(t_2)$$
+
+In the case two variables are not independent, then the joint moment generating function is given by:
+
+$$M(t_1, t_2) = E[e^{t_1 X_1 + t_2 X_2}]$$
+
+Whilst the dependent joint MFG looks the same as the independent product, this is not the case. For dependent variables, the product of the two individual MFG will not be the joint MFG, just like as it is in the case of dependent distributions. 
+
+
