@@ -33,7 +33,7 @@ We described how the moments describe characteristics of the distribution, and w
 
 We can give the kth MFG by:
 
-$$mfg(k) = E[e^{kX}]$$
+$$M(k) = E[e^{kX}]$$
 
 An important theorem of MFG is that, given that the MFG of a random variable describes the distribution of that variable, then if two random variables have the same moment generating functions, then they also have the exact same distribution.
 
