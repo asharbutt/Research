@@ -18,5 +18,5 @@ We first describe the characteristics of Ito Integrals. Let I(t) = $$\int_{0}^{t
 2. Adaptivity - The Integral is F(t) measurable
 3. Linearity - Just like with expectations, we can split the integral into seperate integrands
 4. Martingale - The Integral is a martingale just like the Brownian Motion
-5. Ito Isometry - $$EI^2(t) = E \int_{0}^{t} \Delta^2 (u) ,du$$$$
-7. Quadratic Variation - [I,I]_t = $$\int_{0}^{t} \Delta^2 (u) ,du$$
+5. Ito Isometry - $$EI^2(t) = E \int_{0}^{t} \Delta^2 (u) ,du$$
+6. Quadratic Variation - [I,I]_t = $$\int_{0}^{t} \Delta^2 (u) ,du$$
