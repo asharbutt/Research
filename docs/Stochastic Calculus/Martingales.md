@@ -19,7 +19,7 @@ A martingale is an adapted stochastic process (it is $$F_t$$ measurable) which h
 
 $$E[X_t|F_s] = X_s$$
 
-where $$s\leqt$$. This means that the expected value of some adapted stochastic process in the future is equal to what its current value is given all the information currently available.
+where $$s\leq$$. This means that the expected value of some adapted stochastic process in the future is equal to what its current value is given all the information currently available.
 
 A **super martingale** is one where the future expected value is less than or equal to its current value:
 
