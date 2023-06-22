@@ -72,3 +72,13 @@ $$\int_{0}^{t} \Gamma(u) ,dX$$
 We can rewrite the above as:
 
 $$\int_{0}^{t} \Gamma(u) ,dX = \int_{0}^{t} \Gamma (u) \Delta (u) ,dW(u) + \int_{0}^{t} \Gamma(u) \Theta (u) ,du$$
+
+## Differential of an Ito Process function
+Assume we want to know what d(t, X(t)) is. We use a similar approach:
+
+$$df(t, X(t)) = f_t(t,X(t))dt + f_x(t, X(t))dX(t) + \frac{1}{2}f_{xx}(t, X(t))dX(t)dX(t)$$
+
+Assume we know X(t) is an Ito process similar to what we used above. Because dX(t)dX(t) is just the quadratic variance of the Ito process, we get:
+
+$$df(t, X(t)) = f_t(t,X(t))dt + f_x(t, X(t))\Delta (t)dW(t) + f_x(t, X(t))\Theta (t)dt  + \frac{1}{2}f_{xx}(t, X(t))\Delta^2(t)dt$$
+
