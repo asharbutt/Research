@@ -22,6 +22,7 @@ We first describe the characteristics of Ito Integrals. Let I(t) = $$\int_{0}^{t
 6. Quadratic Variation - [I,I]_t = $$\int_{0}^{t} \Delta^2 (u) ,du$$
 7. The expectation of the Ito Integral is 0 - only in the case that the integrand is an arbitrary martingale. If it is a local martingale, the expectation of the integral can be anything
 
+An important result of the last point is that, in the case the Integrand is an arbitrary martingale, then the expectation is 0. Therefore the variance of an Ito Integral is given by the Ito Isometry property.
 ## Ito-Doeblin Formula
 Because the brownian motion function is not differentiable unlike regular functions, we need to use a different rule when it comes to differentiation. 
 
