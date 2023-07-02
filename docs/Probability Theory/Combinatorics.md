@@ -57,7 +57,7 @@ We no longer consider 1,2 and 2,1 as seperate outcomes, they are the same outcom
 
 This means that the total number of outcomes or combinations has reduced even further. We would expect that the denominator of our permutations formula is even smaller, which it is in the following:
 
-$$\frac{n!}{n!(n-k)!}$$
+$$\frac{n!}{k!(n-k)!}$$
 
 This is also what builds the foundations for the Binomial distribution formula.
 
