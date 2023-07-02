@@ -39,5 +39,12 @@ Two very simple examples of a stopping time are:
 1. Assume we are gambling, and $$X_n$$ gives us the amount of money we have after time n. The stopping time $$\tau = n$$ is a rule which can only be achieved when we have all the information we need to know in order to fulfil the rule i.e. we stop gambling after we have made a certain amount of money. We do not know how much money we have until after we have placed a bet and gotten our earnings, and the total money equals the required amount to stop. This means that the stopping time is dependent on how much information we have, and we do not have enough information to determine that we need to stop up until the point we do, meaning it is not predictable.
 2. We have a stock, and $$X_n$$ is the random variable that represents the stock value. Our decision to buy and sell at a set price depends on what the price is at the time, thus all the information available at the time. We cannot predict this, and can only determine this based on the current filtration.
 
+### Martingales and Stopping times
+A variable $$M_t$$ is a martingale if:
+
+$$E[M_T] = E[M_0] for all stopping times T$$
+
+In order words, if T is a stopping time i.e. a time of interest where a random event happens, then M is a martingale if the expectation of the variable at any stopping time is equal to the expectation of the initial value. 
+
 ## Hitting time
 The hitting time is the first time a stochastic process will **hit** a certain value or a certain subset of the state space, also known as the first passage time. 
