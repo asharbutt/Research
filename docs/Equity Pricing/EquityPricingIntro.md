@@ -13,3 +13,5 @@ $$dS_t = \mu S_t dt + \sigma S_t dW_t$$
 
 where $$\mu$$ and $$\sigma$$ are the instantaneous mean and volatility, and $$dW_t$$ is the brownian motion increment, modelled as a random variable distributed normally: $$X \sim N(0, dt)$$, which we can compute analytically as some random variable calculated as: $$Y \sqrt{dt}$$ such that Y is a standard normal variable.
 
+The Geometric part of the brownian motion means that the entire process is lognormally distributed, supporting the 0 absorbing barrier of the process.
+
