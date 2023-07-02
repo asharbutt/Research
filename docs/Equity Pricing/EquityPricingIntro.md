@@ -15,3 +15,5 @@ where $$\mu$$ and $$\sigma$$ are the instantaneous mean and volatility, and $$dW
 
 The Geometric part of the brownian motion means that the entire process is lognormally distributed, supporting the 0 absorbing barrier of the process.
 
+The right hand side of the brownian motion is known as the diffusion term, or the term that dictates the size of the up and down movements. The left side is the drift term, which dictates what the process will drift towards in the long term, the mean. It is important to note that the GBM is not stationary as the diffusion term is dictated by the change in time, thus is dependent on time. 
+
