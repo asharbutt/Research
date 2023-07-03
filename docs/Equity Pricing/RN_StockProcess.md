@@ -27,17 +27,17 @@ $$df(S) = \frac{1}{S} (r S_t dt + \sigma S_t dW_t) + \frac{1}{2}-\frac{1}{S^2} (
 
 $$df(S) = rdt + \sigma dW_t + \frac{1}{2}-\frac{1}{S^2} (\sigma ^2 S_t^2 dt) $$
 
-$$df(S) = rdt + \sigma dW_t - \frac{1}{2} \sigma ^2 dt $$
+$$df(S) = (r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t $$
 
 Now we substitute in the actual function on the left side f = Ln(S(t)):
 
-$$Ln(S_t) - Ln(S_0) = rdt + \sigma dW_t - \frac{1}{2} \sigma ^2 dt $$
+$$Ln(S_t) - Ln(S_0) = (r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t  $$
 
-$$Ln(\frac{S_t}{S_0})= rdt + \sigma dW_t - \frac{1}{2} \sigma ^2 dt $$
+$$Ln(\frac{S_t}{S_0})= (r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t  $$
 
-$$\frac{S_t}{S_0}= e^{rdt + \sigma dW_t - \frac{1}{2} \sigma ^2 dt}$$
+$$\frac{S_t}{S_0}= e^{(r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t }$$
 
-$$S_t= S_0 e^{rdt + \sigma dW_t - \frac{1}{2} \sigma ^2 dt}$$
+$$S_t= S_0 e^{(r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t}$$
 </div>
 
 The above is our stock price process, which we can use to calculate the risk neutral value of any stock price in the future. 
