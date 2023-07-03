@@ -35,7 +35,7 @@ $$Ln(S_t) - Ln(S_0) = (r - \frac{1}{2} \sigma ^2)t + \sigma W_t  $$
 
 $$Ln(\frac{S_t}{S_0})= (r - \frac{1}{2} \sigma ^2)t + \sigma W_t  $$
 
-$$\frac{S_t}{S_0}= e^{(r - \frac{1}{2} \sigma ^2)t + \sigma W_t }$$
+$$\frac{S_t}{S_0}= e^{(r - \frac{1}{2} \sigma ^2)t + \sigma W_t}$$
 
 $$S_t= S_0 e^{(r - \frac{1}{2} \sigma ^2)t + \sigma W_t}$$
 </div>
