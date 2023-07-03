@@ -31,13 +31,13 @@ $$df(S) = (r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t $$
 
 Now we substitute in the actual function on the left side f = Ln(S(t)):
 
-$$Ln(S_t) - Ln(S_0) = (r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t  $$
+$$Ln(S_t) - Ln(S_0) = (r - \frac{1}{2} \sigma ^2)t + \sigma W_t  $$
 
-$$Ln(\frac{S_t}{S_0})= (r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t  $$
+$$Ln(\frac{S_t}{S_0})= (r - \frac{1}{2} \sigma ^2)t + \sigma W_t  $$
 
-$$\frac{S_t}{S_0}= e^{(r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t }$$
+$$\frac{S_t}{S_0}= e^{(r - \frac{1}{2} \sigma ^2)t + \sigma W_t }$$
 
-$$S_t= S_0 e^{(r - \frac{1}{2} \sigma ^2)dt + \sigma dW_t}$$
+$$S_t= S_0 e^{(r - \frac{1}{2} \sigma ^2)t + \sigma W_t}$$
 </div>
 
 The above is our stock price process, which we can use to calculate the risk neutral value of any stock price in the future. 
