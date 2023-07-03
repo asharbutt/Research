@@ -39,3 +39,5 @@ $$\frac{S_t}{S_0}= e^{rdt + \sigma dW_t - \frac{1}{2} \sigma ^2 dt}$$
 
 $$S_t= S_0 e^{rdt + \sigma dW_t - \frac{1}{2} \sigma ^2 dt}$$
 </div>
+
+The above is our stock price process, which we can use to calculate the risk neutral value of any stock price in the future. 
