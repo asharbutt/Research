@@ -17,7 +17,7 @@ We know the stock price is lognormally distributed, so we can define a new funct
 <div class="code-example" markdown="1">
 $$df(S) = f_S dS + \frac{1}{2}f_{SS}dSdS $$
 
-$$f_S = \frac{1}{S}$$\
+$$f_S = \frac{1}{S}$$
 
 $$f_{SS} = -\frac{1}{S^2}$$
 
