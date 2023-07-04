@@ -21,7 +21,7 @@ What we are essentially stating is that:
 ## Pricing under this theory
 This sets the stage for us to be able to price any kind of derivative instrument as long as there exists a self-financing replication strategy which is a martingale under an equivalent martingale probability measure. Ideally, this means we need 2 things in order to price a derivative instrument: A self replicating strategy and an equivalent martingale probability measure. The market is then complete.
 
-## Idea of numeraires
+## Idea of numeraires and risk neutral pricing
 So we know that if we discount a process with some discounting method, it will be a martingale under the associated probability measure. This means that if we have an asset S, and some numeraire N, then we can find a probability measure associated with that numeraire under which S/N is a martingale.
 
 For European Options, there exists a self-financing replication portfolio. Black-Scholes showed that under the Risk-Neutral Measure Q, the payoff discounted at the risk free rate (Divided by a money market investment B at the rate of r) is a martingale.
@@ -31,6 +31,10 @@ This is where the following conditional expectation formula comes from:
 $$V(t) = E^Q[V(T)D(T-t)|F(t)]$$
 
 Essentially, the discounted replicating portfolio for V(T), the discounted payoff of the European Option, is a martingale under the Risk Neutral Measure Q.
+
+We can apply this to any type of derivative (path dependent or independent) as long as the process V(T) is observable and measurable at T.
+
+
 
 
 
