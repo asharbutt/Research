@@ -1,7 +1,7 @@
 ---
 layout: default
 title: European Option Price Derivation Introduction
-parent: OptionPricing 
+parent: Option Pricing 
 grand_parent: Equity Pricing
 mathjax: true
 permalink: /docs/Equity Pricing/Option Pricing/Derivation/
