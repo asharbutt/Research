@@ -2,7 +2,7 @@
 layout: default
 title: Geometric Brownian Motion Representation of Equity
 parent: Equity Pricing
-nav_order: 1
+nav_order: 2
 ---
 
 # Geometric Brownian Motion
