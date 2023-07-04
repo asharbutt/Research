@@ -19,7 +19,18 @@ What we are essentially stating is that:
 3. A market is said to be complete if a self-financing strategy exists with an equivalent martingale probability measure - this ensures that the discounted value of the portfolio process is a martingale under all equivalent measures, thus fulfilling the Law of One Price condition for an arbitrage free market
 
 ## Pricing under this theory
-This sets the stage for us to be able to price any kind of derivative instrument as long as there exists a self-financing replication strategy which is a martingale under an equivalent martingale probability measure. Ideally, this means we need 2 things in order to price a derivative instrument: A self replicating strategy and an equivalent martingale probability measure. 
+This sets the stage for us to be able to price any kind of derivative instrument as long as there exists a self-financing replication strategy which is a martingale under an equivalent martingale probability measure. Ideally, this means we need 2 things in order to price a derivative instrument: A self replicating strategy and an equivalent martingale probability measure. The market is then complete.
 
-It is important to recall that this is only important if we are looking to price something analytically - we can use Monte Carlo simulations and apply the contingent conditions on the payoff which we can discount back to get the current discounted price.
+## Idea of numeraires
+So we know that if we discount a process with some discounting method, it will be a martingale under the associated probability measure. This means that if we have an asset S, and some numeraire N, then we can find a probability measure associated with that numeraire under which S/N is a martingale.
+
+For European Options, there exists a self-financing replication portfolio. Black-Scholes showed that under the Risk-Neutral Measure Q, the payoff discounted at the risk free rate (Divided by a money market investment B at the rate of r) is a martingale.
+
+This is where the following conditional expectation formula comes from:
+
+$$V(t) = E^Q[V(T)D(T-t)|F(t)]$$
+
+Essentially, the discounted replicating portfolio for V(T), the discounted payoff of the European Option, is a martingale under the Risk Neutral Measure Q.
+
+
 
