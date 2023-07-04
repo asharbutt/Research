@@ -18,3 +18,5 @@ What we are essentially stating is that:
 2. An equivalent martingale measure exists which allows this self-financing strategy to be a martingale under that measure
 3. A market is said to be complete if a self-financing strategy exists with an equivalent martingale probability measure - this ensures that the discounted value of the portfolio process is a martingale under all equivalent measures, thus fulfilling the Law of One Price condition for an arbitrage free market
 
+## Pricing under this theory
+This sets the stage for us to be able to price any kind of derivative instrument as long as there exists a self-financing replication strategy which is a martingale under an equivalent martingale probability measure. Ideally, this means we need 2 things in order to price a derivative instrument: A self replicating strategy and an equivalent martingale probability measure. 
