@@ -2,7 +2,7 @@
 layout: default
 title: Martingale Measures and No-Arbitrage Pricing
 parent: Equity Pricing
-nav_order: 1
+nav_order: 3
 ---
 # Martingale Measures and No-Arbitrage Pricing
 We discussed in the stochastic calculus section that martingales are those where the expected future value given todays information is equal to todays value. How is this applied in pricing theory?
