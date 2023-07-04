@@ -20,3 +20,6 @@ What we are essentially stating is that:
 
 ## Pricing under this theory
 This sets the stage for us to be able to price any kind of derivative instrument as long as there exists a self-financing replication strategy which is a martingale under an equivalent martingale probability measure. Ideally, this means we need 2 things in order to price a derivative instrument: A self replicating strategy and an equivalent martingale probability measure. 
+
+It is important to recall that this is only important if we are looking to price something analytically - we can use Monte Carlo simulations and apply the contingent conditions on the payoff which we can discount back to get the current discounted price.
+
