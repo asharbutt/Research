@@ -24,13 +24,13 @@ This sets the stage for us to be able to price any kind of derivative instrument
 ## Idea of numeraires and risk neutral pricing
 So we know that if we discount a process with some discounting method (i.e we use a risk free asset to discount), it will be a martingale under the associated probability measure. This means that if we have an asset S, and some numeraire N, then we can find a probability measure associated with that numeraire under which S/N is a martingale.
 
-For European Options, there exists a self-financing replication portfolio. Black-Scholes showed that under the Risk-Neutral Measure Q, the payoff discounted at the risk free rate (Divided by a money market investment B at the rate of r) is a martingale.
+For European Options, there exists a self-financing replication portfolio. Black-Scholes showed that under the Risk-Neutral Measure Q, the payoff discounted at the risk free rate (Divided by a money market investment B at the constant rate of r) is a martingale.
 
 This is where the following conditional expectation formula comes from:
 
 $$V(t) = E^Q[V(T)D(T-t)|F(t)]$$
 
-Essentially, the discounted replicating portfolio for V(T), the discounted payoff of the European Option, is a martingale under the Risk Neutral Measure Q.
+Essentially, the discounted replicating portfolio for V(T), the discounted payoff of the European Option, is a martingale under the Risk Neutral Measure Q when we discount it using an investment into the constant risk free rate as a numeraire.
 
 We can apply this to any type of derivative (path dependent or independent) as long as the process V(T) is observable and measurable at T.
 
