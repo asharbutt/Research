@@ -60,4 +60,30 @@ A summary of what we have done:
 An interesting note is that if we did not change the measure, then the discounted stock price process would not be a martingale under the original measure. 
 
 ## The replicating portfolio
-We replicate the option payoff portfolio using an investment into the stock and into the money market account. We buy $$\Delta$$ amounts of the stock and invest 
+We replicate the option payoff portfolio using an investment into the stock and into the money market account. We buy $$\Delta (0)$$ amounts of the stock and invest the remainder into a money market account (NOT A BOND). The dynamics of this can be shown as:
+
+$$dX(t) = \Delta (t)dS(t) + R(t)[X(t) - \Delta(t)S(t)]dt$$
+
+We can input our stock price process into here (under the measure P):
+
+$$dX(t) = \Delta (t)(\alpha (t) S_t dt + \sigma S_t dW^P) + R(t)[X(t) - \Delta(t)S(t)]dt$$
+
+$$dX(t) = \Delta (t)\alpha (t) S_t dt + \Delta (t)\sigma S_t dW^P + R(t)X(t)dt - R(t)\Delta(t)S(t)dt$$
+
+$$dX(t) = \Delta (t) S_t dt (\alpha (t) - R(t)) + \Delta (t)\sigma S_t dW^P + R(t)X(t)dt $$
+
+$$dX(t) = \Delta (t) S_t \sigma(\frac{\alpha (t) - R(t)}{\sigma}dt +  dW^P) + R(t)X(t)dt $$
+
+$$dX(t) = \Delta (t) S_t \sigma(\theta dt +  dW^P) + R(t)X(t)dt $$
+
+So this is the dynamics of the replicating portfolio. Now what would be the dybamics of the discounted replicating portfolio? We show the following using Ito's product rule:
+
+$$d(X(t)D(t)) = dX(t)D(t) + dD(t)X(t) + dX(t)dD(t)$$$
+
+$$d(X(t)D(t)) = (\Delta (t) S_t \sigma(\theta dt +  dW^P) + R(t)X(t)dt)D(t) + X(t)(-R(t)D(t)dt) + (-R(t)D(t)dt)(\Delta (t) S_t \sigma(\theta dt +  dW^P) + R(t)X(t)dt)$$$
+
+Again, the right product will cancel out, giving us the following:
+
+$$d(X(t)D(t)) = (\Delta (t) S_t \sigma(\theta dt +  dW^P)$$$
+
+Which, just like the discounted price process is a martingale.
