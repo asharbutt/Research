@@ -88,7 +88,7 @@ $$d(X(t)D(t)) = \Delta (t) S(t) D(t) \sigma dW^Q$$
 
 Which, just like the discounted price process is a martingale.
 
-# The payoff process
+# The Risk Neutral Expectation of the Option Payoff
 Now that we have shown the discounted portfolio is a martingale, we can imply from this that under the risk neutral measure Q:
 
 $$D(t)X(t) = E^Q[D(T)X(T)|F(t)]$$
@@ -110,3 +110,11 @@ The two discount factors divided by each other give us the discount factor from 
 $$V(t) = E^Q[e^{-r(T-t)}V(T)|F(t)]$$
 
 This is assuming the rate is constant, if not constant then this would be the integral of the rate between the two time periods.
+
+For a European call option, we know the payoff is given by:
+
+$$V(T) = (S_T - K)^+$$
+
+Where + is the max operator. We can therefore re-write our derivative value as:
+
+$$V(t) = E^Q[e^{-r(T-t)}(S_T - K)^+|F(t)]$$
