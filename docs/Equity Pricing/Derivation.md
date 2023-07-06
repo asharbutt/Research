@@ -84,6 +84,6 @@ $$d(X(t)D(t)) = (\Delta (t) S_t \sigma(\theta dt +  dW^P) + R(t)X(t)dt)D(t) + X(
 
 Again, the right product will cancel out, giving us the following:
 
-$$d(X(t)D(t)) = \Delta (t) S_t \sigma dW^Q$$$
+$$d(X(t)D(t)) = \Delta (t) S(t) D(t) \sigma dW^Q$$$
 
 Which, just like the discounted price process is a martingale.
