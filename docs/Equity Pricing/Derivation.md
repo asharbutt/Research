@@ -36,7 +36,7 @@ $$df(D(t)S(t)) = D(t)S(t)\sigma [\frac{\alpha (t) - R(t)}{\sigma}dt + dW^P] $$
 
 Using Girsanovs Theorem, we can define a new brownian motion under a new risk neutral measure:
 
-$$dW = dW^Q + \theta dt$$
+$$dW^P = dW^Q + \theta dt$$
 
 We can do some manipulation to the differential equation for the discounted stock price:
 
