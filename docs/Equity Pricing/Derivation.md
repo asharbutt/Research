@@ -87,3 +87,26 @@ Again, the right product will cancel out, giving us the following:
 $$d(X(t)D(t)) = \Delta (t) S(t) D(t) \sigma dW^Q$$$
 
 Which, just like the discounted price process is a martingale.
+
+# The payoff process
+Now that we have shown the discounted portfolio is a martingale, we can imply from this that under the risk neutral measure Q:
+
+$$D(t)X(t) = E^Q[D(T)X(T)|F(t)]$$
+
+Given that the replicating portfolio exists, it means that we can replicate some derivative with the same payoff using this portfolio, and can thus state:
+
+$$V(t) = X(t)$$
+
+Thus the above becomes:
+
+$$D(t)V(t) = E^Q[D(T)V(T)|F(t)]$$
+
+We can move D(t) to the right side, and because it is F(t) measureable, we can also move it into the expectation:
+
+$$V(t) = E^Q[\frac{D(T)}{D(t)}V(T)|F(t)]$$
+
+The two discount factors divided by each other give us the discount factor from t to T:
+
+$$V(t) = E^Q[e^{-r(T-t)}V(T)|F(t)]$$
+
+This is assuming the rate is constant, if not constant then this would be the integral of the rate between the two time periods.
