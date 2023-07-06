@@ -9,7 +9,7 @@ nav_order: 1
 # The Stock process
 We have mentioned before that the stock process is given by a GBM. We assume that the process under some measure P is given by:
 
-$$dS_t = \alpha (t) S_t dt + \sigma S_t dW_t$$
+$$dS_t = \alpha (t) S_t dt + \sigma S_t dW^P$$
 
 We create a discount process given by D(t), and the dynamics are given by:
 
@@ -24,15 +24,15 @@ The differential for this function can be derived using Ito's Product rule:
 
 $$df(D(t)S(t)) = dD(t)S(t) + D(t)dS(t) + dD(t)dS(t)$$
 
-$$df(D(t)S(t)) = -R(t)D(t)dtS(t) + D(t)(\alpha(t) S_t dt + \sigma S_t dW_t) + (-R(t)D(t)dt)(\alpha (t) S_t dt + \sigma S_t dW_t)$$
+$$df(D(t)S(t)) = -R(t)D(t)dtS(t) + D(t)(\alpha(t) S_t dt + \sigma S_t dW^P) + (-R(t)D(t)dt)(\alpha (t) S_t dt + \sigma S_t dW^P)$$
 
 The product on the far right will cancel out as $$dt^2 = 0$$ and $$dtdW_t = 0$$
 
-$$df(D(t)S(t)) = D(t)S(t)dt[\alpha(t) - R(t)] + \sigma D(t)S(t)dW$$
+$$df(D(t)S(t)) = D(t)S(t)dt[\alpha(t) - R(t)] + \sigma D(t)S(t)dW^P$$
 
 We can take out the $$\sigma$$, D(t) and S(t), shifting everything inside the bracket:
 
-$$df(D(t)S(t)) = D(t)S(t)\sigma [\frac{\alpha (t) - R(t)}{\sigma} + dW] $$
+$$df(D(t)S(t)) = D(t)S(t)\sigma [\frac{\alpha (t) - R(t)}{\sigma} + dW^P] $$
 
 Using Girsanovs Theorem, we can define a new brownian motion under a new risk neutral measure:
 
