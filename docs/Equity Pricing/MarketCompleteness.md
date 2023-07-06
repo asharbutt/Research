@@ -28,7 +28,13 @@ For European Options, there exists a self-financing replication portfolio. Black
 
 This is where the following conditional expectation formula comes from:
 
-$$V(t) = E^Q[V(T)D(T-t)|F(t)]$$
+$$V(t) = E^Q[\frac{V(T)}{B(T)}|F(t)]$$
+
+Where B(T) is the money market investment from t to T at the risk free rate r. Because this is continious, we can rewrite the above as:
+
+$$V(t) = E^Q[\frac{V(T)}{e^{r(T-t)}}|F(t)]$$
+
+$$V(t) = E^Q[V(T)e^{-r(T-t)}|F(t)]$$
 
 Essentially, the discounted replicating portfolio for V(T), the discounted payoff of the European Option, is a martingale under the Risk Neutral Measure Q when we discount it using an investment into the constant risk free rate as a numeraire.
 
