@@ -50,5 +50,14 @@ $$df(D(t)S(t)) = D(t)S(t)\sigma [dW^Q] $$
 
 If we take the integral of this, we get an Ito Integral, which by definition is a martingale. So under the risk neutral measure Q, the discounted stock price is a martingale.
 
+A summary of what we have done:
+1. We have the stock process under some measure P
+2. We have a discount process under the same measure P
+3. We calculate the differential of the discounted stock process using Ito's Product rule
+4. We use a change of measure to change the brownian motion from the measure P to an equivalent martingale measure Q, known as the risk neutral measure.
+5. Under this measure, the discounted stock price is a martingale.
+
+An interesting note is that if we did not change the measure, then the discounted stock price process would not be a martingale under the original measure. 
+
 ## The replicating portfolio
 We replicate the option payoff portfolio using an investment into the stock and into the money market account. We buy $$\Delta$$ amounts of the stock and invest 
