@@ -32,17 +32,17 @@ $$df(D(t)S(t)) = D(t)S(t)dt[\alpha(t) - R(t)] + \sigma D(t)S(t)dW^P$$
 
 We can take out the $$\sigma$$, D(t) and S(t), shifting everything inside the bracket:
 
-$$df(D(t)S(t)) = D(t)S(t)\sigma [\frac{\alpha (t) - R(t)}{\sigma} + dW^P] $$
+$$df(D(t)S(t)) = D(t)S(t)\sigma [\frac{\alpha (t) - R(t)}{\sigma}dt + dW^P] $$
 
 Using Girsanovs Theorem, we can define a new brownian motion under a new risk neutral measure:
 
-$$dW = dW^Q + \theta$$
+$$dW = dW^Q + \theta dt$$
 
 We can do some manipulation to the differential equation for the discounted stock price:
 
-$$df(D(t)S(t)) = D(t)S(t)\sigma [\theta + dW] $$
+$$df(D(t)S(t)) = D(t)S(t)\sigma [\theta dt + dW]$$
 
-Where $$\theta = \frac{\alpha (t) - R(t)}{\sigma}$$, which we define as the market price of risk, or the Sharpe ratio
+Where $$\theta = \frac{\alpha (t) - R(t)}{\sigma}$$, which we define as the **market price of risk, or the Sharpe ratio**
 
 And using the brownian motion from Girsanovs theorem, we get:
 
