@@ -32,7 +32,7 @@ $$\frac{\partial}{\partial S} \int_{-\infty}^{d_1} \phi (x)dx$$
 
 According to the second theorem of calculus and the chain rule, the derivative of an integral is the function being integrated time the derivative of any function in the bounds. If the bounds of the integral are a constant, there is no derivative, and so the derivative will just be the function being integrated itself:
 
-$$\frac{\partial}{\partial x} \[ \int_{a}^{f(x)} g(x) \,dx \] = g(f(x)) \cdot f'(x)$$
+$$\frac{\partial}{\partial x} \int_{a}^{f(x)} g(x)dx = g(f(x)) \cdot f'(x)$$
 
 Thus in our case:
 
