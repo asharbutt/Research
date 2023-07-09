@@ -28,7 +28,7 @@ $$\frac{\partial \Delta}{\partial S} = \frac{\partial}{\partial S}e^{-q\tau}N(d_
 
 The derivative of N(d1) is given through the following:
 
-$$\frac{\partial}{\partial S} \[ \int_{-\infty}^{d_1} \phi (x) \,dx \]$$
+$$\frac{\partial}{\partial S} \int_{-\infty}^{d_1} \phi (x)dx$$
 
 According to the second theorem of calculus and the chain rule, the derivative of an integral is the function being integrated time the derivative of any function in the bounds. If the bounds of the integral are a constant, there is no derivative, and so the derivative will just be the function being integrated itself:
 
