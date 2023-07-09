@@ -21,4 +21,7 @@ $$\frac{\partial V}{\partial S} = e^{-q\tau}N(d_1)$$
 ## Gamma
 The Delta is not constant over all the values of the underlying. As the value of the underlying changes, the Delta value also changes. This signals that the option can become more or less sensitive with changes to the underlying price. It is calculated as the second derivative of the option price w.r.t underlying price, or the derivative of the delta w.r.t underlying price:
 
+$$\frac{\partial \Delta}{\partial S} = \frac{\partial ^2V}{\partial S^2} = \frac{1}{S \sigma \sqrt{2 \pi \tau}}e^{-\frac{1}{2}d_1 ^2}$$
+
+
 $$\frac{\partial \Delta}{\partial S} = \frac{\partial ^2V}{\partial S^2} = \frac{\partial}{\partial S}e^{-q\tau}N(d_1)$$
