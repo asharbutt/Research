@@ -47,3 +47,28 @@ Thus the Gamma is given by:
 $$\frac{\partial \Delta}{\partial S} = e^{-q\tau}\phi (d_1) \cdot \frac{\partial}{\partial S} d_1 = \frac{e^{-q\tau}}{S\sigma\sqrt{\tau}} \phi (d_1)$$
 
 Where $$\phi$$ is the standard normal density function.
+
+## Vega
+The Vega represents the change in the option value as the volatility changes. The formula for vega is given below:
+
+$$\nu = \frac{\partial V}{\partial \sigma} = S_0e^{-q\tau}\phi(d1)\sqrt{\tau}$$
+
+### Proof
+The proof for the vega is slightly different. We start with the usual partial differential:
+
+$$\frac{\partial V}{\partial \sigma} = \frac{\partial}{\partial \sigma}S_0e^{-q\tau}N(d_1) - \frac{\partial}{\partial \sigma}Ke^{-r\tau}N(d_2)$$
+
+We know the derivative of the normal CDF will be the density function multiplied by the partial derivative of the upper bound:
+
+$$\frac{\partial V}{\partial \sigma} = S_0e^{-q\tau}\phi(d_1)\frac{\partial}{\partial \sigma}d_1 - Ke^{-r\tau}\phi(d_2)\frac{\partial}{\partial \sigma}d_2$$
+
+We know that $$d_2 = d_1 - \sigma\sqrt{\tau}$$
+
+and so can subsititute this in:
+
+$$\frac{\partial V}{\partial \sigma} = S_0e^{-q\tau}\phi(d_1)\frac{\partial}{\partial \sigma}d_1 - Ke^{-r\tau}\phi(d_2)\frac{\partial}{\partial \sigma}(d_1 - \sigma \sqrt{\tau})$$
+
+$$\frac{\partial V}{\partial \sigma} = S_0e^{-q\tau}\phi(d_1)\frac{\partial}{\partial \sigma}d_1 - Ke^{-r\tau}\phi(d_2)\frac{\partial}{\partial \sigma}d_1 + Ke^{-r\tau}\phi(d_2)\frac{\partial}{\partial \sigma}\sigma \sqrt{\tau})$$
+
+$$\frac{\partial V}{\partial \sigma} = [S_0e^{-q\tau}\phi(d_1) - Ke^{-r\tau}\phi(d_2)]\frac{\partial}{\partial \sigma}d_1 + Ke^{-r\tau}\phi(d_2)\sqrt{\tau})$$
+
