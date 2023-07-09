@@ -81,3 +81,12 @@ We can therefore subsitute this in for the first square bracket, and thus make t
 $$\frac{\partial V}{\partial \sigma} =  Ke^{-r\tau}\phi(d_2)\sqrt{\tau}$$
 
 $$\frac{\partial V}{\partial \sigma} = S_0 e^{-q\tau}\sqrt{\tau}\phi(d_1)$$
+
+## Theta
+The Theta is the relationship between the option value and time to maturity. There is a negative relationship, because as we get closer to the maturity, if the option is out of money, then the smaller the value of the option becomes, approaching 0.
+
+The theta can be written as:
+
+$$\Theta = - \frac{\partial V}{\partial \tau} = -\frac{-S_0 n(d_1)\sigma}{2\sqrt{\tau}} - rKe^{-r\tau}N(d_2)$$
+
+The proof for this 
