@@ -13,3 +13,12 @@ The Option Greeks represent the sensitivity of the option price relative to the 
 The Delta, represented by $$\Delta _C$$ or $$\Delta_P$$ measures the change in the value of the option relative to a change in the underlying value. Realistically, the value of an option will not change more than 1 times the change in the value of the underlying, thus the Delta is bounded by:
 
 $$0 \leq \Delta_C \leq 1$$ or $$-1 \leq \Delta_P \leq 0$$ for increases in the underlying
+
+We represent the Delta as the first derivative w.r.t the underlying, given by the following for the Black Scholes:
+
+$$\frac{\partial V}{\partial S} = e^{-q\tau}N(d_1)$$
+
+## Gamma
+The Delta is not constant over all the values of the underlying. As the value of the underlying changes, the Delta value also changes. This signals that the option can become more or less sensitive with changes to the underlying price. It is calculated as the second derivative of the option price w.r.t underlying price, or the derivative of the delta w.r.t underlying price:
+
+$$\frac{\partial \Delta}{\partial S} = \frac{\partial ^2V}{\partial S^2} = \frac{\partial}{\partial S}e^{-q\tau}N(d_1)$$
