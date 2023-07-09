@@ -36,7 +36,7 @@ $$\frac{\partial}{\partial x} \[ \int_{a}^{f(x)} g(x) \,dx \] = g(f(x)) \cdot f'
 
 Thus in our case:
 
-$$\frac{\partial}{\partial S} \[ \int_{-\infty}^{d_1} \phi (x) \,dx \] = \phi(d_1) \cdot \frac{\partial}{\partial S} d_1$$
+$$\frac{\partial}{\partial S} \int_{-\infty}^{d_1} \phi (x)dx = \phi(d_1) \cdot \frac{\partial}{\partial S} d_1$$
 
 The derivative of d1 w.r.t S is:
 
