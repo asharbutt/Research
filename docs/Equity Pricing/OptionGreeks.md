@@ -89,4 +89,5 @@ The theta can be written as:
 
 $$\Theta = - \frac{\partial V}{\partial \tau} = -\frac{-S_0 n(d_1)\sigma}{2\sqrt{\tau}} - rKe^{-r\tau}N(d_2)$$
 
-The proof for this 
+The proof for this is quite similar to that of the Option Vega.
+
