@@ -23,5 +23,27 @@ The Delta is not constant over all the values of the underlying. As the value of
 
 $$\frac{\partial \Delta}{\partial S} = \frac{\partial ^2V}{\partial S^2} = \frac{e^{-q\tau}}{S \sigma \sqrt{2 \pi \tau}}e^{-\frac{1}{2}d_1 ^2}$$
 
+### Proof
+$$\frac{\partial \Delta}{\partial S} = \frac{\partial}{\partial S}e^{-q\tau}N(d_1)$$
 
-$$\frac{\partial \Delta}{\partial S} = \frac{\partial ^2V}{\partial S^2} = \frac{\partial}{\partial S}e^{-q\tau}N(d_1)$$
+The derivative of N(d1) is given through the following:
+
+$$\frac{\partial}{\partial S} \[ \int_{-\infty}^{d_1} \phi (x) \,dx \]$$
+
+According to the second theorem of calculus and the chain rule, the derivative of an integral is the function being integrated time the derivative of any function in the bounds. If the bounds of the integral are a constant, there is no derivative, and so the derivative will just be the function being integrated itself:
+
+$$\frac{\partial}{\partial x} \[ \int_{a}^{f(x)} g(x) \,dx \] = g(f(x)) \cdot f'(x)$$
+
+Thus in our case:
+
+$$\frac{\partial}{\partial S} \[ \int_{-\infty}^{d_1} \phi (x) \,dx \] = \phi(d_1) \cdot \frac{\partial}{\partial S} d_1$$
+
+The derivative of d1 w.r.t S is:
+
+$$\frac{1}{S\sigma\sqrt{\tau}}$$
+
+Thus the Gamma is given by:
+
+$$\frac{\partial \Delta}{\partial S} = e^{-q\tau}\phi (d_1) \cdot \frac{\partial}{\partial S} d_1 = \frac{e^{-q\tau}}{S\sigma\sqrt{\tau}} \phi (d_1)$$
+
+Where $$\phi$$ is the standard normal density function.
