@@ -72,3 +72,12 @@ $$\frac{\partial V}{\partial \sigma} = S_0e^{-q\tau}\phi(d_1)\frac{\partial}{\pa
 
 $$\frac{\partial V}{\partial \sigma} = [S_0e^{-q\tau}\phi(d_1) - Ke^{-r\tau}\phi(d_2)]\frac{\partial}{\partial \sigma}d_1 + Ke^{-r\tau}\phi(d_2)\sqrt{\tau})$$
 
+There is a relationship between the density functions which we will not prove here, but is given by the following:
+
+$$S_0 e^{-q\tau}\phi(d_1) = Ke^{-r\tau}\phi(d_2)$$
+
+We can therefore subsitute this in for the first square bracket, and thus make the terms cancel out, leaving us with the second part:
+
+$$\frac{\partial V}{\partial \sigma} =  Ke^{-r\tau}\phi(d_2)\sqrt{\tau}$$
+
+$$\frac{\partial V}{\partial \sigma} = S_0 e^{-q\tau}\sqrt{\tau}\phi(d_1)$$
