@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Radon-Nikodym Derivative
+title: Radon-Nikodym theorem and Change of Numeraire
 parent: Stochastic Calculus
 mathjax: true
 nav_order: 6
@@ -19,3 +19,19 @@ $$Z = \frac{d\nu}{d\mu}$$
 which means we can re-write the above equation as:
 
 $$\nu(A) = \int_{A}^{} \frac{d\nu}{d\mu}d\mu$$
+
+## Change of Numeraire
+The change of numeraire technique is introduced by Gemna et al, and is as follows: We have some asset price X, and the contract will have some payoff which is a function of this asset price, given by h(X). Under the risk neutral measure, the value of the process is calculated as follows:
+
+$$D(t)V(t) = E^Q[D(T)V(T)|F(t)]$$
+
+Where the numeraire under the risk neutral measure is the money market account, given by:
+
+$$B(t) = D(t)^{-1}$$
+
+The value process is being divided by the numeraire, but since the discount factor is the inverse, it is convenient to write it out as a product of the discounted process instead.
+
+A change of measure means that the process has to be a martingale under its new respective measure, and if we define the numeraire to be S, then the expectation would change and look as follows:
+
+$$E^Q[D(T)V(T)|F(t)] = E^S[\frac{V(T)}{S_T}|F(t)]$$
+
