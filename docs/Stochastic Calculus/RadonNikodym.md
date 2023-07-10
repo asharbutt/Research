@@ -11,3 +11,11 @@ When 2 measures are equivalent, we know that both measures agree with what is no
 The Radon-Nikodym theorem states that for 2 equivalent measures on a space, there exists a non-negative function/variable Z such that EZ = 1 and:
 
 $$\nu(A) = \int_{A}^{} Z(w)d\mu$$
+
+Intuitively, Z is some function that represents the relationship between two integrable finite and positive equivalent measures on the same space. The theorem states that this non-negative function Z is known as the **Radon-Nikodym derivative**, which is shown as:
+
+$$Z = \frac{d\nu}{d\mu}$$
+
+which means we can re-write the above equation as:
+
+$$\nu(A) = \int_{A}^{} \frac{d\nu}{d\mu}d\mu$$
