@@ -35,3 +35,4 @@ A change of measure means that the process has to be a martingale under its new 
 
 $$E^Q[D(T)V(T)|F(t)] = E^S[\frac{V(T)}{S_T}|F(t)]$$
 
+We will use this quite often when it comes to defining new measures in the future, such as the T-forward measure or periodic measure for interest rates.
