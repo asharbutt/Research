@@ -15,3 +15,27 @@ A convenient numeraire to use is a zero coupon bond, and specifically a zero cou
 $$\frac{\pi}{P(t,T)} = E^T[\frac{V(T)}{P(T,T)}|F(t)]$$
 
 $$\pi = P(t,T)E^T[V(T)|F(t)]$$
+
+This becomes useful when valuing claims under the T forward measure
+
+We can extend this to forward rates themselves. Recall that a forward rate is a simply compounded rate which can be defined by the relationship between certain bonds:
+
+$$\frac{P(t,T)}{P(t,S)} = P(t;T,S)$$
+
+where P(t;T,S) is a forward starting zero coupon bond for $$t \leq T \leq S$$. Based on this, the forward rate for T-S is given through:
+
+$$\frac{P(t,T)}{P(t,S)} = \frac{1}{1 + f(t;T,S)\tau}$$
+
+where $$\tau$$ is the daycount for the rate period. We can rearrange this to find:
+
+$$\frac{P(t,S)}{P(t,T)} = 1 + f(t;T,S)\tau$$
+
+$$\frac{1}{\tau}[\frac{P(t,S)}{P(t,T)} - 1)] = f(t;T,S)$$
+
+
+## Zero Coupon Bond Options
+Assume we have a claim such that:
+
+$$H_T = (P(T,S) - X)^+$$
+
+Where P(T,S) is a zero coupon bond starting 
