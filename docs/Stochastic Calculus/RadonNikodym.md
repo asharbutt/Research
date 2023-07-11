@@ -37,6 +37,8 @@ This function is regarded as the Radon-Nikodym derivative, and represents the ra
 
 $$Z = \frac{d\nu}{d\mu}$$
 
+This function only exists if $$\nu$$ is absolutely continious w.r.t $$\mu$$
+
 ## Change of Numeraire
 The change of numeraire technique is introduced by Gemna et al, and is as follows: We have some asset price X, and the contract will have some payoff which is a function of this asset price, given by h(X). Under the risk neutral measure, the value of the process is calculated as follows:
 
