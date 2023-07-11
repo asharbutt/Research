@@ -20,6 +20,23 @@ which means we can re-write the above equation as:
 
 $$\nu(A) = \int_{A}^{} \frac{d\nu}{d\mu}d\mu$$
 
+### Easy Summary
+Generally the expectation of some function of a random variable is defined as:
+
+$$E[g(X)] = \int_{\Omega}^{} g(x)dF(X)$$
+
+where dF(X) represents the change in the CDF over the interval. There generally exists a function f on the real line such that:
+
+$$E[g(X)] = \int_{\Omega}^{} g(x)f(X)dx$$
+
+This function can be regarded as the pdf, or the density function of probability over a very small interval. Now if we are two define two equivalent measures such that they are absolutely continious w.r.t each other, then is there some function Z such that such that we convert an integral with respect to one measure to an integral w.r.t to the other measure:
+
+$$\int_{\Omega}^{} g(x)d\mu = \int_{\Omega}^{} g(x)Z(x)\nu(x)$$$
+
+This function is regarded as the Radon-Nikodym derivative, and represents the ratio of the change between the two functions such that:
+
+$$Z = \frac{d\nu}{d\mu}$$
+
 ## Change of Numeraire
 The change of numeraire technique is introduced by Gemna et al, and is as follows: We have some asset price X, and the contract will have some payoff which is a function of this asset price, given by h(X). Under the risk neutral measure, the value of the process is calculated as follows:
 
