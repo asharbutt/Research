@@ -18,5 +18,9 @@ Under Girsanovs theorem, we can switch from one Brownian motion on the real worl
 
 $$W^Q = W^P + \int_{0}^{T}\theta(s) ds$$
 
-Intuitively, we are creating a brownian motion on the risk neutral measure by adjusted the real world brownian motion by the drift process, which is represented as the market price of risk, given previously.
+Intuitively, we are creating a brownian motion on the risk neutral measure by adjusted the real world brownian motion by the drift process, which is represented as the market price of risk, given previously. This new Brownian Motion is a martingale.
+
+The Radon-Nikodym derivative of the two measures can be given by:
+
+$$Z(T) = e^{-\frac{1}{2} \int_{0}^T}\theta ^2(s)ds - \int_{0}^T \theta dW^P$$
 
