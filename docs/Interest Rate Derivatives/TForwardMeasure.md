@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Forward Measure and Forward Rate
+title: T Foward Measure
 parent: Interest Rate Derivatives
 mathjax: true
 nav_order: 1
