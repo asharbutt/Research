@@ -9,6 +9,28 @@ permalink: /docs/Probability Theory/Distributions/Gaussian Distribution/
 # The Gaussian Distribution
 The most widely used distribution accross all fields, also known as the bell curve, the Gaussian, or Standard Normal distribution is given by a symmetrical bell shaped continious distribution. 
 
+## Gaussian Function
+We start with the base function called the Gaussian function, named after German Mathematician Gauss. The base function is in the form of:
+
+$$f(x) = e^{-x^2}$$
+
+The parametric form of this base function is given by:
+
+$$f(x) = ae^{-\frac{(x-b)^2}{2c}}$$
+
+where a and b are constants and c is a non-zero constant. This function produces a symmetrical bell curve, known as a Gaussian curve. The area produced by the standard Gaussian function is $$\sqrt{\pi}$$, whilst the parametric form of the function has an area of $$c\sqrt{2\pi}$$.
+
+### Normalizing factor
+For all probability distribution functions, we need to ensure that the total area underneath the density function is equal to 1, as in the integral, or total probability of the entire curve has to be 1 (recall that a density function necessarily does not need to always be less than 1 since it represents density). 
+
+To convert a probability function to a probability density, we multiply by a normalizing factor, which normalizes the entire function area to 1. This is important when calculating probabilities. 
+
+Since the area of a Gaussian parametric function is $$c\sqrt{2\pi}$$, we normalize the Gaussian function by dividing it:
+
+$$\phi(x) = \frac{1}{c\sqrt{2\pi}}e^{-\frac{(x - b)^2}{2c}}$$
+
+We already know that b is the mean and c is the standard deviation of the distribution.
+
 ## Normal PDF
 The density function of the normal distribution (the function that assigns a probability density to an infinitely small interval on the distribution) is given by:
 
