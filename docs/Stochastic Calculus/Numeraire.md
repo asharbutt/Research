@@ -18,6 +18,6 @@ We use some tradeable asset as a numeraire, normally something that has a non-ne
 ## Numeraires and Martingales
 Any asset divided by a numeraire is a martingale under the measure associated with that numeraire. Of course we need to be able to prove that the numeraire adjusted process is indeed a martingale, but generally there is always some measure for every numeraire such that the measure is a martingale measure.
 
-Where the numeraire is the money market account B(t) = e^{\int_{0}^{t} r(s)ds}, the associated martingale measure is the risk neutral measure. We can show the proof for this under the option pricing formula.
+Where the numeraire is the money market account $$B(t) = e^{\int_{0}^{t} r(s)ds}$$, the associated martingale measure is the risk neutral measure. We can show the proof for this under the option pricing formula.
 
 
