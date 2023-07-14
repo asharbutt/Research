@@ -35,10 +35,3 @@ $$\frac{1}{\tau}[\frac{P(t,S)}{P(t,T)} - 1)] = f(t;T,S)$$
 The actual future spot rate can then be given under the T-forward measure expectation such that:
 
 $$E^T[L(S,T)|F(t)] = f(t;T,S)$$
-
-## Zero Coupon Bond Options
-Assume we have a claim such that:
-
-$$H_T = (P(T,S) - X)^+$$
-
-Where P(T,S) is a zero coupon bond starting 
