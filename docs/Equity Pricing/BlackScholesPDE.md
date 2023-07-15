@@ -34,3 +34,5 @@ The change in the option value can be derived through Ito Calculus:
 $$dV(S,t) = V_t(S,t)dt + V_S(S,t)dS + \frac{1}{2}V_{SS}(S,t)dSdS$$
 
 $$dV(S,t) = \frac{\partial V}{\partial t}dt + \frac{\partial V}{\partial S}(\mu S dt + \sigma S dW) + \frac{1}{2}\frac{\partial^2 V}{\partial S^2}(\mu S dt + \sigma S dW)^2$$
+
+$$dV(S,t) = \frac{\partial V}{\partial t}dt + \frac{\partial V}{\partial S}\mu S dt  + \frac{\partial V} \sigma S dW + \frac{1}{2}\frac{\partial^2 V}{\partial S^2}\sigma^2 S^2 dt$$
