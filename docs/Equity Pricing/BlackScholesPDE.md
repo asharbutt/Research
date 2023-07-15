@@ -15,7 +15,7 @@ This means that if we construct a hedged portfolio called $$\Pi$$, it will be ma
 
 $$\Pi = V - \Delta S$$
 
-Where $$\Delta = #frac{\partial V}{\Partial S}$$
+Where $$\Delta = \frac{\partial V}{\Partial S}$$
 
 What we want to know is, how does the value of this portfolio change? In a no-arbitrage risk neutral environment, the portfolio should grow at the risk free rate such that:
 
