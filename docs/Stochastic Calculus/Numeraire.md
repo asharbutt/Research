@@ -20,4 +20,5 @@ Any asset divided by a numeraire is a martingale under the measure associated wi
 
 Where the numeraire is the money market account $$B(t) = e^{\int_{0}^{t} r(s)ds}$$, the associated martingale measure is the risk neutral measure. We can show the proof for this under the option pricing formula.
 
+The martingale measure will zero out the drift from the numeraire adjusted process (through Girsanov's theorem), and thus the resulting process is a martingale.
 
