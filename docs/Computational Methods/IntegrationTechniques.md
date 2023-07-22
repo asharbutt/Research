@@ -10,4 +10,4 @@ The midpoint method works by splitting the function into several intervals, gett
 
 Let f(x) be a continious function on the interval [a,b], and n be the number of subintervals we want to use to estimate the area. Then $$\Delta x = \frac{b-a}{n}$$. If $$m_i$$ is the midpoint of the ith subinterval, then the estimate of the area is given by:
 
-$$M_n = \sum _{i=1}{n} f(m_i)\Delta x$$
+$$M_n = \sum _{i=1}^{n} f(m_i)\Delta x$$
