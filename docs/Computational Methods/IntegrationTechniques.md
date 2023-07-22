@@ -18,35 +18,17 @@ We show a simple code for a class used to calculate integrals using the midpoint
 #include <math.h>
 #include <iostream>
 
-class functions
-{
-public:
-    virtual double Evaluate(double x) = 0;
-private:
-    double x;
-};
+class functions{
+public: virtual double Evaluate(double x) = 0;
+private:double x;};
 
 class squareValue:public functions
-{
-public:
-    virtual double Evaluate(double x){
-        return x*x;
-    }
-};
+{ public:  virtual double Evaluate(double x) {return x*x; } };
 
 class expoValue:public functions
-{
-public:
-    virtual double Evaluate(double x){
-        return exp(x);
-    }
-};
+{ public:virtual double Evaluate(double x) {return exp(x); } };
 class cubeValue: public functions
-{
-public: virtual double Evaluate(double x){
-    return x*x*x;
-    }
-};
+{ public: virtual double Evaluate(double x){return x*x*x;} };
 
 class integrand
 {
@@ -56,22 +38,16 @@ private:
     double b;
     double a;
     double integrand_value;
-public:
-    integrand (int n, double a_,double b_):numInterval(n), b(b_), a(a_){}
-    
-    double midpoint_rule(functions &func){
-        
+public: integrand (int n, double a_,double b_):numInterval(n), b(b_), a(a_){}
+    double midpoint_rule(functions &func){ 
         integrand_value = 0;
         subintervalLength = (b - a)/double(numInterval);
-        
         for (int i = 0; i < numInterval; i++){
             integrand_value += subintervalLength * func.Evaluate((subintervalLength/2) + a + i*subintervalLength);
         }
-        return integrand_value;
-    }
-    
+        return integrand_value;}
+
     double trapezoid_rule(functions &func){
-        
         //Trapezoid rule is: T = subintervalLength/2 * [f(x_0) + 2f(x_1)+...+2f(x_n-1) + f(x_n)]
         integrand_value = 0;
         subintervalLength = (b - a)/double(numInterval);
@@ -81,25 +57,18 @@ public:
         }
         integrand_value += func.Evaluate(b);
         integrand_value = integrand_value*(subintervalLength/2);
-        
-        return integrand_value;
-    }
+        return integrand_value;}
     
     double simpsons_rule(functions &func){
         integrand_value = 0;
         subintervalLength = (b - a)/double(numInterval);
-        
-        
         return integrand_value;
-    }
-    
+    }  
 };
 
 int main(){
     test_function f;
-    
     integrand i(100,-5.0,4.0);
-    
     double value = i.midpoint_rule(f);
     double value_2 = i.trapezoid_rule(f);
     std::cout << value << " " << value_2 << std::endl;
