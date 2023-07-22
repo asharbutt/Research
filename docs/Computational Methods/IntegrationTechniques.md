@@ -14,7 +14,7 @@ $$M_n = \sum _{i=1}^{n} f(m_i)\Delta x$$
 
 We show a simple code for a class used to calculate integrals using the midpoint, trapezoid and Simpsons rule below:
 
-```
+``` c++
 #include <math.h>
 #include <iostream>
 
