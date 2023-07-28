@@ -23,7 +23,7 @@ $$f(x,y) = f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \fra
 
 If we cut off the expansion before the n differentiable limit, we introduce an error. For example, for an n+1 differentiable funtion f:
 
-$$f(x,y) = f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b) +... O(x^{n+1}) + O(y^{n+1})$$
+$$f(x,y) = f(a,b) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b) +... O(x^{n+1}) + O(y^{n+1})$$
 
 For a 2nd degree Taylor expansion, the error term is:
 
@@ -33,5 +33,12 @@ If we remove the error terms, we get an approximation:
 
 $$f(x,y) \sim f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b)$$
 
+## Greeks relationship via Taylor expansion
+Given the greeks represent changes in the option value relative to other values, let us use Taylors expansion to evaluate V(S+dS,t+ dt). We will have the following parameters: x = S + ds, y = t + dt, a = S, b = t. This gives us the following when doing a 2nd order expansion:
 
+$$f(x,y) = f(a,b) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b) + O((x-a)^{3}) + O((y-b)^{3})$$
+
+Replacing the terms with the original parameters:
+
+$$V(S + dS,t + dt) = V(S,t) + \frac{\partial V}{\partial S}dS + \frac{\partial V}{\partial t}dt  + \frac{\partial ^2 V}{\partial S^2}\frac{dS^2}{2}  + \frac{\partial ^2 V}{\partial t^2}\frac{dt^2}{2} + \frac{\partial ^2 V}{\partial S \partial t}\frac{dSdt}{2} + O(dS^{3}) + O(dt^{3})$$
 
