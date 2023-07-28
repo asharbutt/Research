@@ -31,7 +31,7 @@ $$f(x,y) = f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \fra
 
 If we remove the error terms, we get an approximation:
 
-$$f(x,y) \sim f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b)$$
+$$f(x,y) \approx f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b)$$
 
 ## Greeks relationship via Taylor expansion
 Given the greeks represent changes in the option value relative to other values, let us use Taylors expansion to evaluate V(S+dS,t+ dt). We will have the following parameters: x = S + ds, y = t + dt, a = S, b = t. This gives us the following when doing a 2nd order expansion:
@@ -44,8 +44,8 @@ $$V(S + dS,t + dt) = V(S,t) + \frac{\partial V}{\partial S}dS + \frac{\partial V
 
 Recalling that dSdt = 0, dtdt = 0 and dSdS = $$\sigma ^2 S^2 dt$$, and removing the error terms at the end, we get the following approximation:
 
-$$V(S + dS,t + dt) \sim V(S,t) + \frac{\partial V}{\partial S}dS + \frac{\partial V}{\partial t}dt  + \frac{\partial ^2 V}{\partial S^2}\frac{\sigma^2 S^2 dt}{2}$$
+$$V(S + dS,t + dt) \approx V(S,t) + \frac{\partial V}{\partial S}dS + \frac{\partial V}{\partial t}dt  + \frac{\partial ^2 V}{\partial S^2}\frac{\sigma^2 S^2 dt}{2}$$
 
 We can replace the derivatives with their respective greeks:
 
-$$V(S + dS,t + dt) \sim V(S,t) + \Delta dS + \Theta dt  + \Gamma \frac{\sigma^2 S^2 dt}{2}$$
+$$V(S + dS,t + dt) \approx V(S,t) + \Delta dS + \Theta dt  + \Gamma \frac{\sigma^2 S^2 dt}{2}$$
