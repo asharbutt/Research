@@ -48,4 +48,4 @@ $$V(S + dS,t + dt) \sim V(S,t) + \frac{\partial V}{\partial S}dS + \frac{\partia
 
 We can replace the derivatives with their respective greeks:
 
-$$V(S + dS,t + dt) \sim V(S,t) + \Delta dS + \thetadt  + \gamma\frac{\sigma^2 S^2 dt}{2}$$
+$$V(S + dS,t + dt) \sim V(S,t) + \Delta dS + \Theta dt  + \Gamma \frac{\sigma^2 S^2 dt}{2}$$
