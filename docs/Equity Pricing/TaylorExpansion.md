@@ -42,3 +42,10 @@ Replacing the terms with the original parameters:
 
 $$V(S + dS,t + dt) = V(S,t) + \frac{\partial V}{\partial S}dS + \frac{\partial V}{\partial t}dt  + \frac{\partial ^2 V}{\partial S^2}\frac{dS^2}{2}  + \frac{\partial ^2 V}{\partial t^2}\frac{dt^2}{2} + \frac{\partial ^2 V}{\partial S \partial t}\frac{dSdt}{2} + O(dS^{3}) + O(dt^{3})$$
 
+Recalling that dSdt = 0, dtdt = 0 and dSdS = $$\sigma ^2 S^2 dt$$, and removing the error terms at the end, we get the following approximation:
+
+$$V(S + dS,t + dt) \sim V(S,t) + \frac{\partial V}{\partial S}dS + \frac{\partial V}{\partial t}dt  + \frac{\partial ^2 V}{\partial S^2}\frac{\sigma^2 S^2 dt}{2}$$
+
+We can replace the derivatives with their respective greeks:
+
+$$V(S + dS,t + dt) \sim V(S,t) + \Delta dS + \thetadt  + \gamma\frac{\sigma^2 S^2 dt}{2}$$
