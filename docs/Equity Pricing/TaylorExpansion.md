@@ -23,4 +23,15 @@ $$f(x,y) = f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \fra
 
 If we cut off the expansion before the n differentiable limit, we introduce an error. For example, for an n+1 differentiable funtion f:
 
+$$f(x,y) = f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b) +... O(x^{n+1}) + O(y^{n+1})$$
+
+For a 2nd degree Taylor expansion, the error term is:
+
+$$f(x,y) = f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b) + O(x^{3}) + O(y^{3})$$
+
+If we remove the error terms, we get an approximation:
+
+$$f(x,y) \sim f(a) + f_x(a)(x-a) + f_y(a)(y-b) + \frac{f_{xx}(a)}{2!}(x-a)^2 + \frac{f_{yy}(a)}{2!}(y-b)^2 + \frac{f_{xy}(a)}{2!}(x-a)(y-b)$$
+
+
 
