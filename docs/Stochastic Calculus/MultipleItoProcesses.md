@@ -19,7 +19,7 @@ $$E_t \int_{}^{t} \rho(s)ds$$
 The correlation can therefore be calculated as the following for a time u - t:
 $$correlation = \frac{covariancee}{\sqrt{u - t} \sqrt{u - t}}$$
 
-$$correlation = \frac{/int_{t}^{u} \rho(s)ds}{\sqrt{u - t} \sqrt{u - t}}$$
+$$correlation = \frac{\int_{t}^{u} \rho(s)ds}{\sqrt{u - t} \sqrt{u - t}}$$
 
 If the function is constant, then the integral is just the difference multiplied by the value:
 
