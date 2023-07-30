@@ -25,3 +25,13 @@ If the function is constant, then the integral is just the difference multiplied
 
 $$correlation = \frac{(u - t)\rho(s)ds}{u - t}$$
 
+The quadratic variation for each process and the two processes combined can be given by:
+
+$$\langle X,X \rangle _T = \sum _{}^{N} [\Delta X(t)]^2 = \int _{0}^{T} \sigma_x ^2 dt$$
+
+$$\langle Y,Y \rangle _T = \sum _{}^{N} [\Delta Y(t)]^2 = \int _{0}^{T} \sigma_y ^2 dt$$
+
+Thus the product of the two can be given by:
+
+$$\langle Y,X \rangle _T = \sum _{}^{N} [\Delta Y(t)][\Delta X(t)] = \int _{0}^{T} \sigma_y \sigma_x \rho (t) dt$$
+
