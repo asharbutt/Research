@@ -12,7 +12,7 @@ $$dX(t) = \mu_x (t)dt + \sigma_x (t)dW_x$$
 
 $$dY(t) = \mu_y (t)dt + \sigma_y (t)dW_y$$
 
-The relationship between the two brownian motions with mean 0 and variance t can be described using the correlation and covariance. There exists some function $$\rho$$ such that the covariance between the two brownian motions can be described using the following:
+The relationship between the two **correlated** brownian motions with mean 0 and variance t can be described using the correlation and covariance. There exists some function $$\rho$$ such that the covariance between the two brownian motions can be described using the following:
 
 $$E_t \int_{}^{t} \rho(s)ds$$
 
@@ -38,3 +38,6 @@ $$\langle Y,X \rangle _T = \sum _{}^{N} [\Delta Y(t)][\Delta X(t)] = \int _{0}^{
 This is because we assume that the quadratic variation of two brownian motions is the correlation and time: 
 
 $$dW_x dW_y = \rho (t) dt $$
+
+It is important to note that this is the case for correlated brownian motions, in the case they are not correlated and are in fact independent, then the cross quadratic variance is 0.
+
