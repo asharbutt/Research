@@ -33,7 +33,7 @@ $$\langle Y,Y \rangle _T = \sum _{}^{N} [\Delta Y(t)]^2 = \int _{0}^{T} \sigma_y
 
 Thus the product of the two can be given by:
 
-$$\langle Y,X \rangle _T = \sum _{}^{N} [\Delta Y(t)][\Delta X(t)] = \int _{0}^{T} \sigma_y \sigma_x \rho (t) dt$$
+$$\langle Y,X \rangle _T = \sum _{}^{N} [\Delta Y(t)][\Delta X(t)] = \int _{0}^{T} \sigma_y \sigma_x \rho dt$$
 
 This is because we assume that the quadratic variation of two brownian motions is the correlation and time: 
 
