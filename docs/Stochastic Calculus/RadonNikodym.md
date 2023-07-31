@@ -20,6 +20,7 @@ which means we can re-write the above equation as:
 
 $$\nu(A) = \int_{A}^{} \frac{d\nu}{d\mu}d\mu$$
 
+The reason why the Radon-Nikodym derivative Z is strictly non-negative is because of the fact that both measures are equivalent. 
 ### Easy Summary
 Generally the expectation of some function of a random variable is defined as:
 
