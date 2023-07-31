@@ -24,6 +24,10 @@ The Radon-Nikodym derivative of the two measures can be given by:
 
 $$Z(T) = e^{ -\frac{1}{2} \int_{0}^{T} \theta ^2(s)ds - \int_{0}^{T} \theta dW^P}$$
 
+The Radon-Nikodym derivative is of the exponential form known as the Dolean-Dade exponential, which is a martingale. This form is required for all equivalent change of measures under Girsanovs theorem. 
+
+Thus, if we want to use Girsanovs theorem, then we require the derivative to be a Dolean Dade exponential martingale.
+
 ## Simple summary
 When changing the probability measure, there is no guarantee that our Brownian motion will remain a Brownian motion. Recall Levy theorem which defines a Brownian motion:
 
