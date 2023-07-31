@@ -22,5 +22,5 @@ Intuitively, we are creating a brownian motion on the risk neutral measure by ad
 
 The Radon-Nikodym derivative of the two measures can be given by:
 
-$$Z(T) = e^{-\frac{1}{2} \int_{0}^T}\theta ^2(s)ds - \int_{0}^T \theta dW^P}$$
+$$Z(T) = e^{ -\frac{1}{2} \int_{0}^{T} \theta ^2(s)ds - \int_{0}^{T} \theta dW^P}$$
 
