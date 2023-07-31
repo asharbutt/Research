@@ -24,3 +24,16 @@ The Radon-Nikodym derivative of the two measures can be given by:
 
 $$Z(T) = e^{ -\frac{1}{2} \int_{0}^{T} \theta ^2(s)ds - \int_{0}^{T} \theta dW^P}$$
 
+## Simple summary
+When changing the probability measure, there is no guarantee that our Brownian motion will remain a Brownian motion. Recall Levy theorem which defines a Brownian motion:
+
+1. Brownian Motion is a martingale process
+2. The increments of a Brownian Motion are normally distributed with mean 0 and variance dt
+3. Non-overlapping increments are independent
+
+When changing the probability measure, we also change the probabilities themselves, and thus introduce a drift within the brownian motion, meaning it is no longer a martingale. 
+
+In order to cancel out this drift, we introduce Girsanovs theorem, which describes how the drift changes under a different probability measure using some deterministic adapted function. 
+This drift adjustment can be used to cancel out this newly introduced drift in the process under the measure. 
+
+
