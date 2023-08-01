@@ -144,5 +144,6 @@ int main(){
 ```
 
 The above code combined produces the following:
-
+<p align="center">
 <img src= "https://github.com/asharbutt/Research/blob/main/assets/GBM_Simuations.png" width="600" height="350">
+</p>
