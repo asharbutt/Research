@@ -145,4 +145,4 @@ int main(){
 
 The above code combined produces the following:
 
-<img src= "https://github.com/asharbutt/Research/blob/main/assets/GBM_Simuations.png" width="400" height="200">
+<img src= "https://github.com/asharbutt/Research/blob/main/assets/GBM_Simuations.png" width="600" height="300">
