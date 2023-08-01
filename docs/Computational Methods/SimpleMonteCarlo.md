@@ -145,4 +145,4 @@ int main(){
 
 The above code combined produces the following:
 
-![](https://github.com/asharbutt/Research/blob/main/assets/GBM_Simuations.png)
+![](https://github.com/asharbutt/Research/blob/main/assets/GBM_Simuations.png =100x250)
