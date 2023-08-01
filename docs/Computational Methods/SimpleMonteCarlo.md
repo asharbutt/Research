@@ -145,4 +145,4 @@ int main(){
 
 The above code combined produces the following:
 
-![Simulation Runs](/Research/assets/GBM_Simulations.png)
+![](/.../.../assets/GBM_Simuations.png)
