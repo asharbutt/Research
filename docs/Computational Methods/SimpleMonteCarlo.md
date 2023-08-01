@@ -136,7 +136,7 @@ int main(){
     
     for (int i = 0; i < intervalNum; i++){
         for (int j = 0; j < n; j++){
-            simulationPaths.width (10); simulationPaths << priceMatrix[i][j];
+            simulationPaths.width (10); simulationPaths << priceMatrix[j][i];
         }
         simulationPaths << std::endl;
     }
