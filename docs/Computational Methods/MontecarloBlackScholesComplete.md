@@ -5,7 +5,7 @@ parent: Computational Methods
 nav_order: 3
 ---
 # Monte Carlo and Black Scholes
-We finalise by including a Black Scholes function for comparison. The normal CDF is calculated using our own integration class from the previous section:
+We finalise by including a Black Scholes function for comparison. The normal CDF is calculated using our own integration class from the previous section. We do not include dividends in the code, however, this can easily be added in - we subtract a dividend yield (if continious) from the mean in the stochastic process, and multiply the initial stock price by $$e^{-qT}$$ in the black scholes class. For a discrete dividend, if known, we can calculate the present value and subtract from the initial stock price to adjust.
 
 ``` c++
 //
