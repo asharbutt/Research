@@ -9,6 +9,7 @@ We build a simple simulator for a Geometric Brownian Motion. We first start with
 The structure will be simple:
 1. We create a family of classes for our processes. The process class will be initiated with the required parameters such that we do not have to pass these into the simulator class.
 
+All code in the monte carlo simulation for european vanilla options will not include dividends.
 We create the following base and derived classes for a GBM and CEV process:
 
 ``` c++
