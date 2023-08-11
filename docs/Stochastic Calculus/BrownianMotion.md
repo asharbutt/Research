@@ -50,6 +50,13 @@ We can now formally define a Brownian Motion. Suppose we have a probability spac
 
 The important difference between a Brownian Motion and a scaled symmetrical random walk is that the random walk is only approximately normal, whereas the Brownian Motion is exactly normal.
 
+### Levy's characterization of Brownian Motion
+Levy's theorem characterizes Brownian Motions such that any stochastic process which fulfils these conditions can be called a brownian motion.
+
+Assume a stochastic process X on a probability space (\Pi, \Digamma, P) such that $X_0 = 0$. Then X is a brownian motion if:
+1. X is a local martingale on the filtration
+2. The process $X^2 - t$ is a local martingale
+
 ## Filtration for a Brownian Motion
 As mentioned previously, a filtration is a sequence of $$\sigma-algebras$$ that contain all information known until that filtration time. For a Brownian motion, there is a filtration associated with the brownian motion random variable which satisfy the following conditions:
 1. Information Accuulation - as mentioned previously, we expect that infromation is accumulating in every new $$\sigma-algebra$$ in the filtration, as each one should have equal to or more information than the previous $$\sigma-algebra$$
