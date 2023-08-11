@@ -48,3 +48,8 @@ In order words, if T is a stopping time i.e. a time of interest where a random e
 
 ## Hitting time
 The hitting time is the first time a stochastic process will **hit** a certain value or a certain subset of the state space, also known as the first passage time. 
+
+### Local Martingales
+Suppose we have a time interval t= [0,$$\infty$$). Intuitively, if we zoom into some time interval, but instead of discretely identifying the scale as times, we define them as stopping times, then we still expect the process to be a martingale - however, in this case it is a martingale locally to that interval bounded by the stopping time. 
+
+So every martingale is also a local martingale, however, not all local martingales are martingales
