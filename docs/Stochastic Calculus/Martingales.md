@@ -42,7 +42,7 @@ Two very simple examples of a stopping time are:
 ### Martingales and Stopping times
 A variable $$M_t$$ is a martingale if:
 
-$$E[M_T] = E[M_0] for all stopping times T$$
+$$E[M_T] = E[M_0]$$ for all stopping times T
 
 In order words, if T is a stopping time i.e. a time of interest where a random event happens, then M is a martingale if the expectation of the variable at any stopping time is equal to the expectation of the initial value. 
 
