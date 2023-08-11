@@ -44,7 +44,7 @@ The value of the brownian motion as a scaled symmetrical random walk is the scal
 As we increase n towards infinity, the random walk will have a limiting distribution. In this case, the limiting distribution is the normal distribution. So as we increase n, the scaled symmetrical random walk will approximately be normally distributed with mean 0 and a variance of t.
 
 ## Brownian Motion
-We can now formally define a Brownian Motion. Suppose we have a probability space $$(\Omega, \Digamma, P)$$, and we have a continious function W(t) where $$t \geq 0$$ that satisfies W(0) = 0. Then W(t) is a brownian motion if it satisfies the following conditions:
+We can now formally define a Brownian Motion. Suppose we have a probability space $$(\Omega, \digamma, P)$$, and we have a continious function W(t) where $$t \geq 0$$ that satisfies W(0) = 0. Then W(t) is a brownian motion if it satisfies the following conditions:
 1. The Increments are independent
 2. The Increments are normally distributed with mean 0 and variance t
 
