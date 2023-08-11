@@ -56,6 +56,7 @@ Levy's theorem characterizes Brownian Motions such that any stochastic process w
 Assume a stochastic process X on a probability space (\Pi, \Digamma, P) such that $X_0 = 0$. Then X is a brownian motion if:
 1. X is a local martingale on the filtration
 2. The process $X^2 - t$ is a local martingale
+3. The process X and $X^2 - t$ are both continious
 
 ## Filtration for a Brownian Motion
 As mentioned previously, a filtration is a sequence of $$\sigma-algebras$$ that contain all information known until that filtration time. For a Brownian motion, there is a filtration associated with the brownian motion random variable which satisfy the following conditions:
