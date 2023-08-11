@@ -53,7 +53,7 @@ The important difference between a Brownian Motion and a scaled symmetrical rand
 ### Levy's characterization of Brownian Motion
 Levy's theorem characterizes Brownian Motions such that any stochastic process which fulfills these conditions can be identified as a brownian motion.
 
-Assume a stochastic process X on a probability space $$(\Pi, \Digamma, P)$$ such that $$X_0 = 0$$. Then X is a brownian motion if:
+Assume a stochastic process X on a probability space $$(\Omega, \digamma, P)$$ such that $$X_0 = 0$$. Then X is a brownian motion if:
 1. X is a local martingale on the filtration
 2. The process $$X^2 - t$$ is a local martingale
 3. The process X and $$X^2 - t$$ are both continious
