@@ -46,12 +46,12 @@ As we increase n towards infinity, the random walk will have a limiting distribu
 ## Brownian Motion
 We can now formally define a Brownian Motion. Suppose we have a probability space $$(\Omega, \Digamma, P)$$, and we have a continious function W(t) where $$t \geq 0$$ that satisfies W(0) = 0. Then W(t) is a brownian motion if it satisfies the following conditions:
 1. The Increments are independent
-2. The Increments are normally distributed with mean 0 and variance change in time
+2. The Increments are normally distributed with mean 0 and variance t
 
 The important difference between a Brownian Motion and a scaled symmetrical random walk is that the random walk is only approximately normal, whereas the Brownian Motion is exactly normal.
 
 ### Levy's characterization of Brownian Motion
-Levy's theorem characterizes Brownian Motions such that any stochastic process which fulfils these conditions can be called a brownian motion.
+Levy's theorem characterizes Brownian Motions such that any stochastic process which fulfills these conditions can be identified as a brownian motion.
 
 Assume a stochastic process X on a probability space (\Pi, \Digamma, P) such that $X_0 = 0$. Then X is a brownian motion if:
 1. X is a local martingale on the filtration
