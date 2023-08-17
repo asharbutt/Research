@@ -22,3 +22,10 @@ $$F_X(x) = \int_{a}^{x} \frac{1}{b-a}dx$$
 $$F_X(x) = \prescript{a}{x}[ \frac{x}{b-a}] $$
 
 $$F_X(x) = \frac{x - a}{b-a}$$
+
+## Expectation
+The expectation can be calculated through:
+
+$$E[X] = \int_{a}^{b} x f_X(x)dx$$
+
+$$E[X] = \int_{a}^{b} \frac{x}{b-a}dx$$
