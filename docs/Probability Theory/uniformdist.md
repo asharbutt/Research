@@ -1,4 +1,4 @@
-  ---
+---
 layout: default
 title: Uniform Distribution
 parent: Continious Distributions
