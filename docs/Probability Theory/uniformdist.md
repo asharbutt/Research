@@ -29,3 +29,11 @@ The expectation can be calculated through:
 $$E[X] = \int_{a}^{b} x f_X(x)dx$$
 
 $$E[X] = \int_{a}^{b} \frac{x}{b-a}dx$$
+
+$$E[X] =  \prescript{a}{b}[\frac{x^2}{2(b-a)}]$$
+
+$$E[X] =  \frac{b^2 - a^2}{2(b-a)}]$$
+
+$$E[X] =  \frac{(b-a)(b+a)}{2(b-a)}]$$
+
+$$E[X] =  \frac{(b+a)}{2}]$$
