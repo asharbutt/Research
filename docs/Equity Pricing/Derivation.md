@@ -80,13 +80,27 @@ So this is the dynamics of the replicating portfolio. Now what would be the dyba
 
 $$d(X(t)D(t)) = dX(t)D(t) + dD(t)X(t) + dX(t)dD(t)$$
 
-$$d(X(t)D(t)) = (\Delta (t) S_t \sigma(\theta dt +  dW^P) + R(t)X(t)dt)D(t) + X(t)(-R(t)D(t)dt) + (-R(t)D(t)dt)(\Delta (t) S_t \sigma(\theta dt +  dW^P) + R(t)X(t)dt)$$
+$$d(X(t)D(t)) = [\Delta (t) S_t \sigma(\theta dt +  dW^P) + R(t)X(t)dt]D(t) + X(t)[-R(t)D(t)dt] + [-R(t)D(t)dt)(\Delta (t) S_t \sigma(\theta dt +  dW^P) + R(t)X(t)dt]$$
 
 Again, the right product will cancel out, giving us the following:
 
+$$d(X(t)D(t)) = [\Delta (t) S_t \sigma(\theta dt +  dW^P)D(t)$$
+
+So the change process currently has drift, meaning it cannot be a martingale. Recall through Girsanovs change of measure, we can define a new measure Q such that:
+
+$$W^Q = W^P + \int_{0}^{t} \theta (s)ds$$
+
+The proof that this Brownian Motion is indeed a Brownian motion is simple as we just to prove each of the Levy Theorem conditions.
+
+The differential of this new Brownian motion is:
+
+$$dW^Q = dW^P + \theta (t)dt$$
+
+Substituting this into the above equation gives us:
+
 $$d(X(t)D(t)) = \Delta (t) S(t) D(t) \sigma dW^Q$$
 
-Which, just like the discounted price process is a martingale.
+Which, just like the discounted price process is a martingale as there is no drift.
 
 # The Risk Neutral Expectation of the Option Payoff
 Now that we have shown the discounted portfolio is a martingale, we can imply from this that under the risk neutral measure Q:
