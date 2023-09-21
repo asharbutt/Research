@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Chebyshev's Inequality
-Parent: Basics
+parent: Basics
 grand_parent: Probability Theory
 mathjax: true
 nav_order: 12
