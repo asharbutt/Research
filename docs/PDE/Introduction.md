@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction to PDE
-parent: PartialDifferential
+parent: Partial Differential Equations
 mathjax: true
 nav_order: 1
 ---
