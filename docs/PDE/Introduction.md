@@ -32,6 +32,7 @@ $$\frac{\delta^2 u}{\delta x^2}(x-a) + \frac{\delta^2 u}{\delta y^2}(y-b) - ua =
 
 $$\frac{\delta^2 u}{\delta x^2} + \frac{\delta u}{\delta y} + \frac{\delta u}{\delta x} = 0$$
 
+Linear PDE's also follow the principle of superposition, where if we have 2 solutions to the PDE $u_1$ and $u_2$, then we can also form the solution $\alpha u_1 + \beta u_2, \alpha, \beta \in \mathbb{R}$
 ### Semi-linear
 For a PDE to be semilinear, the highest order derivatives have to be linear and only products of the independent variables at most
 
