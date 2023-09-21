@@ -15,7 +15,9 @@ A simple way of representing the PDE is as a function of all the variables. Say 
 The order of the PDE is the highest derivative present in the equation. Examples include the below:
 
 1st Order:
-$$$$
+$$\frac{\delta u}{\delta x} + \frac{\delta u}{\delta y} - u = 0$$
 
 2nd Order:
-$$$$
+$$\frac{\delta^2 u}{\delta x^2} + \frac{\delta^2 u}{\delta y^2} - u = 0$$
+
+
