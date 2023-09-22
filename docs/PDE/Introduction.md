@@ -32,7 +32,9 @@ $$\frac{\delta^2 u}{\delta x^2}(x-a) + \frac{\delta^2 u}{\delta y^2}(y-b) - ua =
 
 $$\frac{\delta^2 u}{\delta x^2} + \frac{\delta u}{\delta y} + \frac{\delta u}{\delta x} = 0$$
 
-Linear PDE's also follow the principle of superposition, where if we have 2 solutions to the PDE $$u_1$$ and $$u_2$$, then we can also form the solution $$\alpha u_1 + \beta u_2, \alpha, \beta \in \mathbb{R}$$
+Linear PDE's also follow the principle of superposition, where if we have 2 solutions to the PDE $$u_1$$ and $$u_2$$, then we can also form the solution $$\alpha u_1 + \beta u_2, \alpha, \beta \in \mathbb{R}$$ 
+
+It is important to consider that the variable u also has to be linear i.e it cannot be $$u^n$$. 
 ### Semi-linear
 For a PDE to be semilinear, the highest order derivatives have to be linear and only products of the independent variables at most
 
@@ -48,6 +50,11 @@ A quasi-linear PDE is one where the highest order derivative is linear, i.e prod
 
 Examples of Quasi PDEs:
 $$\frac{\delta^2 u}{\delta x^2}\frac{\delta u}{\delta y} + \frac{\delta u}{\delta y}u + \frac{\delta u}{\delta x}u = 0$$
+
+So the list goes:
+1. Linear - All derivatives and dependent variables are linear
+2. Semi-linear - Highest order derivatives are linear and combinations of independent variables only
+3. Quasi-linear - Highest order derivatives are linear
 
 ## Boundary and Initial Conditions
 PDE's can be solved in a space subject to conditions which specify the values of the function in those regions. A Boundary Condition sets out how the function behaves when close to those boundaries of the variables. 
