@@ -31,4 +31,4 @@ This is quite useful in the cases of Barrier options where we would want to moni
 Markov Property:
 Given a Brownian motion $$ {W_t}_{t \geq 0} $$, then the interval $$ {W(t+s) -  W(t)}_{s,t \geq 0} $$ is also a Brownian motion and independent of the process up till time t:
 
-$${W(t+s) -  W(t)}_{s,t \geq 0} \independent {W(t)}_{t \geq 0} $$ and is also a standard Brownian Motion
+$${W(t+s) -  W(t)}_{s,t \geq 0} \indep {W(t)}_{t \geq 0} $$ and is also a standard Brownian Motion
