@@ -9,8 +9,8 @@ nav_order: 2
 ## Scaling and Symmetries
 Given that a process $${W(t)}_{t \geq 0}$$ is a Brownian motion, then so are the following:
 1. {-W(t)}
-2. $${aW(/frac{t}{a^2})}$$
-3. $${tW(/frac{1}{t^2})}$$
+2. $${aW(\frac{t}{a^2})}$$
+3. $${tW(\frac{1}{t^2})}$$
 4. {W(t+s) - W(t)}
 
 4 is as a result of the Markov Property which we will talk about later. The importance of the scaling and symmetries is that if we were to have a Brownian process, then if we flipped the sign, then the resulting path would still be a Brownian process with the same distribution. Due to the continuity of the process, it is differentiable everywhere and so the min and max operators are well defined:
@@ -29,6 +29,6 @@ This is quite useful in the cases of Barrier options where we would want to moni
 
 ## Markov properties
 Markov Property:
-Given a Brownian motion $${W_t}_{t \geq 0}$$, then the interval $${W(t+s) -  W(t)}_{s,t \geq 0}$$ is also a Brownian motion and independent of the process up till time t:
+Given a Brownian motion $$ {W_t}_{t \geq 0} $$, then the interval $$ {W(t+s) -  W(t)}_{s,t \geq 0} $$ is also a Brownian motion and independent of the process up till time t:
 
-$${W(t+s) -  W(t)}_{s,t \geq 0} \independent {W(t)}_{t \geq 0}$$ and is also a standard Brownian Motion
+$${W(t+s) -  W(t)}_{s,t \geq 0} \independent {W(t)}_{t \geq 0} $$ and is also a standard Brownian Motion
