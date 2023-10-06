@@ -19,3 +19,11 @@ In reality, strict stationarity is never observsed, and the conditions are too s
 
 1. $$E[X_t] {\perp \!\!\! \perp} t$$ meaning that the expectation/mean does not change with time in the series
 2. $$\gamma _X (t, t+h) {\perp \!\!\! \perp} t\forall h$$ meaning that the covariance function does not change with time, only with the lag
+
+The weak stationarity conditions are far more relaxed as compared to the strict conditions, but in essence are just a reduced version. Instead of focusing on the probability distribution, we focus only on the first two moments of the distribtuion in the weak conditions. 
+
+## Autocorrelation
+The autocorrelation at lag h of a time series is calculated through the covariance at lag h divided by the variance:
+
+$$\rho _X(h) = \frac{\gamma _X(t, t+h)}{\gamma _X(t,t)} = \gamma _X (t, t+h)$$
+
