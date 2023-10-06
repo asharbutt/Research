@@ -18,4 +18,4 @@ Strict stationarity states that the joint distribution of all the random variabl
 In reality, strict stationarity is never observsed, and the conditions are too strict (hence the name), so a weaker condition exists, which states the following:
 
 1. $$E[X_t] {\perp \!\!\! \perp} t$$ meaning that the expectation/mean does not change with time in the series
-2. $$\gamma _X (t, t+h) {\perp \!\!\! \perp} t for all h$$ meaning that the covariance function does not change with time, only with the lag
+2. $$\gamma _X (t, t+h) {\perp \!\!\! \perp} t\forall h$$ meaning that the covariance function does not change with time, only with the lag
