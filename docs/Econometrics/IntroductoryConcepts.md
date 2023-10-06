@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introductory Concepts
-parent: Introductory Concepts
-has_children: false
+parent: Economertics
+has_children: true
 nav_order: 1
 ---
