@@ -32,3 +32,5 @@ Markov Property:
 Given a Brownian motion $$ {W_t}_{t \geq 0} $$, then the interval $$ {W(t+s) -  W(t)}_{s,t \geq 0} $$ is also a Brownian motion and independent of the process up till time t:
 
 $${W(t+s) -  W(t)}_{s,t \geq 0} \perp\kern-5pt\perp {W(t)}_{t \geq 0} $$ and is also a standard Brownian Motion
+
+An important corollary from the above is that given that the new process is a standard brownian motion, then the process $$M^*(t+s) = max (W^*(t+s)) {\perp \!\!\! \perp} M(t)$$ i.e. the maximum of the new increment will also be independent of the maximum up till the time t.
