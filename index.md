@@ -12,4 +12,3 @@ I am a motivated Quantitative Finance student with 3 years of experience within 
 
 My CV includes 3 years of experience at IHS Markit (now part of S&P Market Intelligence), where I started out as a point of contact for clients on queries regarding their valuations, and slowly transitioned to being an Interest Rates Products specialist, working with Quant teams on deep diving rates valuations, as well as worked on development of new exotic products. 
 
-
