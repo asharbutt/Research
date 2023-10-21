@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Computational Methods
+title: Mini Projects
 nav_order: 6
 has_children: true
 ---
