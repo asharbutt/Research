@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Simple Monte Carlo Simulator in C++
-parent: Computational Methods
+parent: Mini Projects
 nav_order: 2
 ---
 # Simple Monte Carlo Simulator
