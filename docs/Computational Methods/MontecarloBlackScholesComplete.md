@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Monte Carlo & Black Scholes Complete Code
-parent: Computational Methods
+parent: Mini Projects
 nav_order: 3
 ---
 # Monte Carlo and Black Scholes
