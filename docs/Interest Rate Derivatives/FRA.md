@@ -11,4 +11,4 @@ An FRA is an agreement to exchange some float reference rate for a fixed rate K 
 
 The value of the Long FRA is therefore the following at maturity:
 
-$$FRA(0,T,\delta, i_T) = /frac{\delta(i_T - K)}{1+\delta i_T}$$
+$$FRA(0,T,\delta, i_T) = \frac{\delta(i_T - K)}{1+\delta i_T}$$
