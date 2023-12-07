@@ -40,4 +40,6 @@ Because of daily settlement, you can capture and reinvest any profits to earn a 
 
 When converting between forward and futures rates, we can use the following convexity adjustment:
 
-$$f_{0,T,\delta} = h_{0,T} - \frac{1}{2}\sigma_f T \delta$$
+$$f_{0,T,\delta} = h_{0,T} - \frac{1}{2}\sigma_f^2 T \delta$$
+
+Where $$\sigma_f ^2$$ is the volatility of the rate, usually calibrated to caplets/floorlets. 
