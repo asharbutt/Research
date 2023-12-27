@@ -242,7 +242,7 @@ int main() {
     double sigma = 0.2;
     double strike = 95.0;
 
-    binomialPricer european(timeSteps, T, r, S_0, sigma, strike);
+    binomialPricer option(timeSteps, T, r, S_0, sigma, strike);
     std::cout << "Option Value is: " << european.priceAmericanPut() << std::endl;
 
     return 0;
