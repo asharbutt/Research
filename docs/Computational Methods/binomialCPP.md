@@ -230,3 +230,21 @@ public:
 
 };
 ```
+
+You can call this class using the following:
+``` c++
+int main() {
+
+    int timeSteps = 10;
+    double T = 1;
+    double r = 0.01;
+    double S_0 = 100;
+    double sigma = 0.2;
+    double strike = 95.0;
+
+    binomialPricer european(timeSteps, T, r, S_0, sigma, strike);
+    std::cout << "Option Value is: " << european.priceAmericanPut() << std::endl;
+
+    return 0;
+}
+```
