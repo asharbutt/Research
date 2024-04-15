@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EXCEL Add-In
-parent: Mini Projects
+parent: Mini Projects C++
 nav_order: 1
 ---
 # EXCEL Add-In
