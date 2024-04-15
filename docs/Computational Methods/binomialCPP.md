@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Binomial Tree Option Pricing (IN PROGRESS)
-parent: Mini Projects
+parent: Mini Projects C++
 nav_order: 1
 ---
 # Binomial Tree Option Pricing
