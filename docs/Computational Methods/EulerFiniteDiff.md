@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Finite Difference Methods - Euler Scheme (IN PROGRESS)
-parent: Mini Projects
+parent: Mini Projects C++
 nav_order: 1
 ---
 # Euler Scheme Finite Difference method (IN PROGRESS)
