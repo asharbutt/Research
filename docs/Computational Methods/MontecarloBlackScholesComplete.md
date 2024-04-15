@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Monte Carlo & Black Scholes Complete Code
-parent: Mini Projects
+parent: Mini Projects C++
 nav_order: 3
 ---
 # Monte Carlo and Black Scholes
