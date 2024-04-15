@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Integration Techniques in C++
-parent: Mini Projects
+parent: Mini Projects C++
 nav_order: 1
 ---
 
