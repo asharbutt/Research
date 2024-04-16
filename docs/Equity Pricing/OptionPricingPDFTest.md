@@ -7,4 +7,4 @@ mathjax: true
 nav_order: 1
 ---
 
-<iframe src="https://raw.githubusercontent.com/asharbutt/Research/blob/main/PDF%20Files/Option_Pricing.pdf" width="100%" height="500px"></iframe>
+<iframe src="https://raw.githubusercontent.com/asharbutt/pdf_sharing/blob/main/PDF_Files/Option_Pricing.pdf" width="100%" height="500px"></iframe>
