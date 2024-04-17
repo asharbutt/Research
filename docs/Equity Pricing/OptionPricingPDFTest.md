@@ -7,4 +7,4 @@ mathjax: true
 nav_order: 1
 ---
 
-<object data="Option_Pricing.pdf" width="1000" height="1000" type='application/pdf'/>
+<object data="OptionGreeks.pdf" width="1000" height="1000" type='application/pdf'/>
